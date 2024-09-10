@@ -1,7 +1,7 @@
   /* common css page start  */
   :root {
       --primary-color: #1C3664;
-      /* --secondary-color: white; */
+      --white-code: white;
 
   }
 
@@ -21,6 +21,48 @@
   /* common css page end */
 
   /* our amazing service page start */
- 
+  .service_bg_color {
+      background: var(--primary-color);
+      padding: 100px 0px;
+  }
+
+  .service_heading {
+      padding-top: 40px;
+      text-align: center;
+      color: var(--white-code);
+  }
+
+  .service_item {
+      margin-left: 20px;
+      margin-top: 50px;
+      display: flex;
+      gap: 20px;
+      height: 55px;
+      background-color: var(--white-code);
+      border-radius: 5px;
+      width: 350px;
+  }
+
+  .service_icon {
+      margin-top: 17px;
+  }
+
+  .service_text {
+      margin-top: 17px;
+      font-size: 15px;
+  }
+
+  .trusted_company {
+      margin-top: 20px;
+  }
+
+  .trusted_company_logo {
+      display: flex;
+      gap: 50px;
+  }
+
+  .trusted_company_logo img {
+      width: 100%;
+  }
 
   /* our amazing service page end */
