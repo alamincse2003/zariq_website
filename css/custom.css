@@ -1,0 +1,26 @@
+  /* common css page start  */
+  :root {
+      --primary-color: #1C3664;
+      /* --secondary-color: white; */
+
+  }
+
+  * {
+      box-sizing: border-box;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      outline: none;
+      text-decoration: none;
+  }
+
+  html {
+      scroll-behavior: smooth;
+  }
+
+  /* common css page end */
+
+  /* our amazing service page start */
+ 
+
+  /* our amazing service page end */
