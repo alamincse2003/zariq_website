@@ -1,4 +1,4 @@
-  /* common css page start  */
+  /* common css section start  */
   :root {
       --primary-color: #1C3664;
       --white-code: white;
@@ -18,10 +18,71 @@
       scroll-behavior: smooth;
   }
 
-  /* common css page end */
+  /* common css section end */
 
-  /* our amazing service page start */
+  /* it solution section start  */
+  .it_solution_service {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .it_solution_explore {
+      padding-top: 50px;
+      position: relative;
+  }
+
+  .it_solution_explore p::before {
+
+      position: absolute;
+      content: " ";
+      bottom: 4px;
+      width: 172px;
+      background-color: #0e84ff;
+      height: 3px;
+  }
+
+  .it_solution_explore p a {
+      text-decoration: none;
+  }
+
+  .it_solution_explore_icon {
+      padding-left: 20px;
+  }
+
+  .it_solution_items {
+      display: flex;
+      gap: 20px;
+  }
+
+  .it_solution_logo img {
+      width: 60px;
+  }
+
+  .it_solution_item_icon {
+      color: #0e84ff;
+      padding-left: 220px;
+  }
+
+
+
+  .it_solution_line {
+      width: 100%;
+  }
+
+  .it_solution_item_bg_color {
+      padding: 12px;
+      border-radius: 4px;
+      color: var(--white-code);
+      background-color: var(--primary-color);
+  }
+
+  /* it solution section end */
+
+  /* our amazing service section start */
   .service_bg_color {
+      margin-top: 100px;
       background: var(--primary-color);
       padding: 100px 0px;
   }
@@ -65,4 +126,4 @@
       width: 100%;
   }
 
-  /* our amazing service page end */
+  /* our amazing service section end */
