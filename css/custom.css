@@ -1,4 +1,7 @@
   /* common css section start  */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+  /* common css page start  */
   :root {
       --primary-color: #1C3664;
       --white-code: white;
@@ -16,6 +19,10 @@
 
   html {
       scroll-behavior: smooth;
+  }
+
+  body {
+      font-family: 'Inter Tight', sans-serif;
   }
 
   /* common css section end */
