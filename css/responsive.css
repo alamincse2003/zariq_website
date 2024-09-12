@@ -1,5 +1,36 @@
 /* mobile devices start  */
 @media only screen and (max-width: 374px) and (min-width: 320px) {
+
+    /* it solution page start  */
+    .container {
+        padding: 10px;
+    }
+
+    .it_solution_heading {
+        font-size: 18px;
+    }
+
+    .it_solution_explore a {
+        font-size: 14px;
+    }
+
+    .it_solution_service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .it_solution_explore p::before {
+        width: 150px;
+    }
+
+    .it_solution_item_icon {
+        padding-left: 210px;
+    }
+
+    /* it solution page end */
+
+    /* service page start */
+
     .service_bg_color {
         width: fit-content;
     }
@@ -11,19 +42,84 @@
     .service_item {
         width: 280px;
     }
+
     .trusted_company_logo {
         display: flex;
         gap: 30px;
     }
 }
 
+/* service page end */
 @media only screen and (max-width: 424px) and (min-width: 375px) {
+
+    /* it solution page start  */
+    .container {
+        padding: 10px;
+    }
+
+    .it_solution_heading {
+        font-size: 18px;
+    }
+
+    .it_solution_explore a {
+        font-size: 14px;
+    }
+
+    .it_solution_service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .it_solution_explore p::before {
+        width: 160px;
+    }
+
+    .it_solution_item_icon {
+        padding-left: 250px;
+    }
+
+    /* it solution page end */
+
+    .it_solution_explore p::before {
+        width: 152px;
+    }
+
     .service_item {
         width: 335px;
     }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 425px) {
+
+    /* it solution page start  */
+    .container {
+        padding: 10px;
+    }
+
+    .it_solution_heading {
+        font-size: 18px;
+    }
+
+    .it_solution_explore a {
+        font-size: 14px;
+    }
+
+    .it_solution_service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .it_solution_explore p::before {
+        width: 153px;
+    }
+
+    .it_solution_item_icon {
+        padding-left: 310px;
+    }
+
+
+    /* it solution page end */
+
     .service_item {
         width: 382px;
     }
@@ -33,6 +129,10 @@
 
 /* tab devices start  */
 @media only screen and (max-width: 1198px) and (min-width: 768px) {
+    .it_solution_item_icon {
+        padding-left: 440px;
+    }
+
     .service_item {
         width: 682px;
     }
