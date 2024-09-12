@@ -24,7 +24,7 @@
     }
 
     .it_solution_item_icon {
-        padding-left: 210px;
+        padding-left: 244px;
     }
 
     /* it solution page end */
@@ -47,9 +47,18 @@
         display: flex;
         gap: 30px;
     }
+
+    /* service page end */
+    /* why choose page start */
+    .slick-prev,
+    .slick-next {
+        display: block;
+    }
+
+    /* why choose page end */
 }
 
-/* service page end */
+
 @media only screen and (max-width: 424px) and (min-width: 375px) {
 
     /* it solution page start  */
@@ -75,7 +84,7 @@
     }
 
     .it_solution_item_icon {
-        padding-left: 250px;
+        padding-left: 298px;
     }
 
     /* it solution page end */
@@ -114,7 +123,7 @@
     }
 
     .it_solution_item_icon {
-        padding-left: 310px;
+        padding-left: 350px;
     }
 
 
@@ -130,7 +139,7 @@
 /* tab devices start  */
 @media only screen and (max-width: 1198px) and (min-width: 768px) {
     .it_solution_item_icon {
-        padding-left: 440px;
+        padding-left: 603px;
     }
 
     .service_item {

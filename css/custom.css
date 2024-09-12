@@ -1,10 +1,10 @@
   /* common css section start  */
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
   /* common css page start  */
   :root {
       --primary-color: #1C3664;
-      --white-color: white;
+      --white-color: #ffffff;
       --charcoal-color: #333333;
 
   }
@@ -16,26 +16,26 @@
       padding: 0;
       outline: none;
       text-decoration: none;
-      
+
   }
 
-  
-a {
-    text-decoration: none;
-    display: inline-block;
 
-}
+  a {
+      text-decoration: none;
+      display: inline-block;
 
-ul,
-ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+  }
 
-.clr {
-    clear: both;
-}
+  ul,
+  ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .clr {
+      clear: both;
+  }
 
   html {
       scroll-behavior: smooth;
@@ -52,127 +52,129 @@ ol {
   /* ============================
   top navbar css start 
   =============================*/
-  .custom_top_navbar{
-    background-color: var(--primary-color);
+  .custom_top_navbar {
+      background-color: var(--primary-color);
   }
 
   ul.navbar-nav {
-    margin-left: 250px;
-}
+      margin-left: 250px;
+  }
 
-li.nav-item {
-    margin: 0px 10px;
-}
+  li.nav-item {
+      margin: 0px 10px;
+  }
 
-.dropdown-item{
-    color: var(--charcoal-color) !important;
-}
+  .dropdown-item {
+      color: var(--charcoal-color) !important;
+  }
 
-.custom_navbar{
-    background-color: var(--primary-color);
-    margin-bottom: 10px;
-}
-.nav-link {
-  color: var(--white-color) !important;
-}
+  .custom_navbar {
+      background-color: var(--primary-color);
+      margin-bottom: 10px;
+  }
 
-.tsting_btn{
- background-color: var(--white-color);
- padding: 10px 5px;
- border-radius: 5px;
- color: var(--charcoal-color);
-}
+  .nav-link {
+      color: var(--white-color) !important;
+  }
 
-/*===============================
+  .tsting_btn {
+      background-color: var(--white-color);
+      padding: 10px 5px;
+      border-radius: 5px;
+      color: var(--charcoal-color);
+  }
+
+  /*===============================
     banner section css start 
 ================================*/
-.banner {
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
+  .banner {
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
   }
+
   .logo-slider {
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    width: 100%;
-    z-index: 3;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 1rem 0;
+      position: absolute;
+      bottom: 10%;
+      left: 0;
+      width: 100%;
+      z-index: 3;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 1rem 0;
   }
 
   .logo-slider img {
-    max-height: 60px;
-    margin: 0 auto;
+      max-height: 60px;
+      margin: 0 auto;
   }
 
   /* Background Image Carousel */
   .carousel-item img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
   }
 
   /* Banner content (text) */
   .banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    z-index: 2;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      z-index: 2;
   }
 
   .banner h1 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
   }
 
   .banner p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
   }
 
   .banner .btn {
-    padding: 0.8rem 2rem;
-    font-size: 1rem;
-    background-color: #ff6f61;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
   }
 
   .banner .btn:hover {
-    background-color: #ff3d2e;
+      background-color: #ff3d2e;
   }
 
   /* Responsive design */
   @media (max-width: 768px) {
-    .banner h1 {
-      font-size: 3rem;
-    }
+      .banner h1 {
+          font-size: 3rem;
+      }
 
-    .banner p {
-      font-size: 1.2rem;
-    }
+      .banner p {
+          font-size: 1.2rem;
+      }
 
-    .banner .btn {
-      padding: 0.7rem 1.5rem;
-    }
+      .banner .btn {
+          padding: 0.7rem 1.5rem;
+      }
 
-    .logo-slider img {
-      max-height: 40px;
-    }
+      .logo-slider img {
+          max-height: 40px;
+      }
   }
 
-/*==================================
+  /*==================================
      banner section css end 
 ===================================*/
 
-/* ===============================
+  /* ===============================
   top navbar css end 
   ==============================*/
   /* our amazing service page start */
@@ -209,30 +211,36 @@ li.nav-item {
   }
 
   .it_solution_items {
+      padding: 10px;
       display: flex;
       gap: 20px;
   }
 
-  .it_solution_logo img {
-      width: 60px;
-  }
 
   .it_solution_item_icon {
-      color: #0e84ff;
-      padding-left: 220px;
+      padding-left: 286px;
   }
 
+
+  .it_solution_content span {
+      color: #0e84ff;
+  }
 
 
   .it_solution_line {
       width: 100%;
   }
 
-  .it_solution_item_bg_color {
-      padding: 12px;
+  .it_solution_items:hover {
+      padding: 10px;
       border-radius: 4px;
-      color: var(--white-code);
       background-color: var(--primary-color);
+      color: var(--white-color);
+  }
+
+  .it_solution_items:hover>.it_solution_content span {
+      color: var(--white-color);
+
   }
 
   /* it solution section end */
@@ -285,3 +293,79 @@ li.nav-item {
   }
 
   /* our amazing service section end */
+
+  /* why choose section start */
+  .why_choose_btn_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .why_choose_btn {
+      padding: 8px 10px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: var(--white-color);
+      text-decoration: none;
+      background-color: var(--primary-color);
+  }
+
+  .slick-prev,
+  .slick-next {
+      background-color: black;
+      color: var(--white-color);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      z-index: 1;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+      color: var(--primary-color);
+  }
+
+  .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      background-color: #f9f9f9;
+  }
+
+  .slick-slide {
+      margin: 30px;
+  }
+
+  /* why choose section end */
+
+  /* contact section start  */
+  #contact_bg_img {
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      width: 100%;
+  }
+
+  .contact_left_side {
+      color: var(--white-color);
+      margin-top: 100px;
+      padding: 10px 20px;
+  }
+
+  .contact_right_side {
+      color: var(--white-color);
+      margin-top: 100px;
+      padding: 10px 20px;
+  }
+
+  .contact_left_side_input {
+      padding: 10px;
+  }
+
+  .contact_btn {
+      background-color: var(--white-color);
+      padding: 8px 20px;
+      border-radius: 5px;
+  }
+
+  /* contact section end */
