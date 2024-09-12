@@ -1,10 +1,10 @@
   /* common css section start  */
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
   /* common css page start  */
   :root {
       --primary-color: #1C3664;
-      --white-code: white;
+      --white-color: #ffffff;
 
   }
 
@@ -59,30 +59,36 @@
   }
 
   .it_solution_items {
+      padding: 10px;
       display: flex;
       gap: 20px;
   }
 
-  .it_solution_logo img {
-      width: 60px;
-  }
 
   .it_solution_item_icon {
-      color: #0e84ff;
-      padding-left: 220px;
+      padding-left: 286px;
   }
 
+
+  .it_solution_content span {
+      color: #0e84ff;
+  }
 
 
   .it_solution_line {
       width: 100%;
   }
 
-  .it_solution_item_bg_color {
-      padding: 12px;
+  .it_solution_items:hover {
+      padding: 10px;
       border-radius: 4px;
-      color: var(--white-code);
       background-color: var(--primary-color);
+      color: var(--white-color);
+  }
+
+  .it_solution_items:hover>.it_solution_content span {
+      color: var(--white-color);
+
   }
 
   /* it solution section end */
@@ -97,7 +103,7 @@
   .service_heading {
       padding-top: 40px;
       text-align: center;
-      color: var(--white-code);
+      color: var(--white-color);
   }
 
   .service_item {
@@ -106,7 +112,7 @@
       display: flex;
       gap: 20px;
       height: 55px;
-      background-color: var(--white-code);
+      background-color: var(--white-color);
       border-radius: 5px;
       width: 350px;
   }
@@ -134,3 +140,47 @@
   }
 
   /* our amazing service section end */
+
+  /* why choose section start */
+  .why_choose_btn_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .why_choose_btn {
+      padding: 8px 10px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: var(--white-color);
+      text-decoration: none;
+      background-color: var(--primary-color);
+  }
+
+  .slick-prev,
+  .slick-next {
+      background-color: black;
+      color: var(--white-color);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      z-index: 1;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+      color: var(--primary-color);
+  }
+
+  .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      background-color: #f9f9f9;
+  }
+
+  .slick-slide {
+      margin: 30px;
+  }
+
+  /* why choose section end */
