@@ -27,9 +27,37 @@
         padding-left: 244px;
     }
 
+    .it_solution_items {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .it_solution_logo img {
+        max-width: 60px;
+        margin-bottom: 10px;
+    }
+
+    .it_solution_items_title {
+        font-size: 1.2em;
+    }
+
+    .it_solution_pera {
+        font-size: 0.9em;
+    }
+
+    .it_solution_item_icon {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .it_solution_line hr {
+        width: 100%;
+    }
+
     /* it solution page end */
 
-    /* service page start */
+    /* service section  start */
 
     .service_bg_color {
         width: fit-content;
@@ -45,17 +73,71 @@
 
     .trusted_company_logo {
         display: flex;
-        gap: 30px;
+        flex-direction: column;
+        align-items: center;
     }
 
-    /* service page end */
+    .trusted_company_logo img {
+        max-width: 80%;
+        margin: 5px 0;
+    }
+
+
+    /* service section end */
+
     /* why choose page start */
+    .why_choose_heading {
+        font-size: 30px;
+
+    }
+
     .slick-prev,
     .slick-next {
         display: block;
     }
 
     /* why choose page end */
+
+    /* test talks section start  */
+    .test_talks_heading {
+        font-size: 30px;
+    }
+
+    /* test talks section end  */
+
+    /* service page start  */
+    /* service banner section start  */
+    .service_banner_content h3 {
+        font-size: 20px;
+    }
+
+    .service_banner_content h2 {
+        font-size: 24px;
+
+    }
+
+    .service_banner_content p {
+        margin-bottom: 175px;
+        width: 240px;
+        /* height: 222px; */
+        font-size: 15px;
+        /* padding: 30px 0px; */
+    }
+
+    /* service banner section end  */
+    /* service page end  */
+    /* footer page start  */
+    .footer_booking_social_media {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footer_copyright {
+        text-align: center;
+    }
+
+    /* footer page end */
 }
 
 
@@ -96,6 +178,33 @@
     .service_item {
         width: 335px;
     }
+
+    /* footer page start  */
+    .footer_logo_section {
+        text-align: center;
+    }
+
+    .footer_company_section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer_useful_link_section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer_booking_social_media {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footer_copyright {
+        text-align: center;
+    }
+
+    /* footer page end */
 }
 
 @media only screen and (max-width: 767px) and (min-width: 425px) {
@@ -132,6 +241,33 @@
     .service_item {
         width: 382px;
     }
+
+    /* footer page start  */
+    .footer_logo_section {
+        text-align: center;
+    }
+
+    .footer_company_section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer_useful_link_section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer_booking_social_media {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footer_copyright {
+        text-align: center;
+    }
+
+    /* footer page end */
 }
 
 /* mobile devices end */
@@ -145,6 +281,33 @@
     .service_item {
         width: 682px;
     }
+
+    /* footer page start  */
+    .footer_logo_section {
+        text-align: center;
+    }
+
+    .footer_company_section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer_useful_link_section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .footer_booking_social_media {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footer_copyright {
+        text-align: center;
+    }
+
+    /* footer page end */
 }
 
 @media only screen and (max-width: 1199px) and (min-width: 992px) {

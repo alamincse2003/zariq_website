@@ -180,26 +180,32 @@
   /* our amazing service page start */
 
   /* it solution section start  */
+  .it_solution_heading {
+      font-size: 53px;
+      color: #252334;
+      font-weight: 300;
+  }
+
   .it_solution_service {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
+      margin-top: 128px;
   }
 
   .it_solution_explore {
-      padding-top: 50px;
+      display: flex;
+      flex-direction: row-reverse;
       position: relative;
+      font-size: 24px;
+      color: #0e84ff;
+      font-weight: 300;
   }
 
   .it_solution_explore p::before {
-
       position: absolute;
       content: " ";
-      bottom: 4px;
-      width: 172px;
+      bottom: 10px;
+      width: 246px;
       background-color: #0e84ff;
-      height: 3px;
+      height: 2px;
   }
 
   .it_solution_explore p a {
@@ -211,14 +217,29 @@
   }
 
   .it_solution_items {
+      position: relative;
       padding: 10px;
       display: flex;
       gap: 20px;
   }
 
+  .it_solution_items p::before {
+      position: absolute;
+      content: " ";
+      bottom: 10px;
+      width: 85%;
+      background-color: #dedede;
+      height: 2px;
+
+  }
+
+  .it_solution_items p {
+      color: #65646b;
+  }
 
   .it_solution_item_icon {
-      padding-left: 286px;
+      display: flex;
+      justify-content: end;
   }
 
 
@@ -228,7 +249,16 @@
 
 
   .it_solution_line {
+      /* margin-bottom: 30px; */
+      /* position: absolute; */
       width: 100%;
+  }
+
+  .it_solution_items_title {
+      font-size: 27px;
+      color: #1b1d21;
+      font-weight: 300;
+      font-family: "Inter Tight";
   }
 
   .it_solution_items:hover {
@@ -243,6 +273,18 @@
 
   }
 
+  .it_solution_items:hover .it_solution_items_title {
+      color: var(--white-color);
+  }
+
+  .it_solution_items:hover p {
+      color: var(--white-color);
+  }
+
+  .it_solution_logo i {
+      font-size: 40px;
+  }
+
   /* it solution section end */
 
   /* our amazing service section start */
@@ -254,7 +296,10 @@
   }
 
   .service_heading {
-      padding-top: 40px;
+      font-size: 53px;
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
       text-align: center;
       color: var(--white-color);
   }
@@ -275,8 +320,21 @@
   }
 
   .service_text {
-      margin-top: 17px;
-      font-size: 15px;
+      font-size: 24px;
+      color: #1b1d21;
+      font-weight: 300;
+      font-family: "Inter Tight";
+      margin-top: 10px;
+  }
+
+  .trusted_company_heading {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 27px;
+      letter-spacing: 1px;
+      color: var(--white-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
   }
 
   .trusted_company {
@@ -288,13 +346,43 @@
       gap: 50px;
   }
 
-  .trusted_company_logo img {
-      width: 100%;
-  }
+  /* .trusted_company_logo img {
+      width: 90%;
+  } */
 
   /* our amazing service section end */
 
   /* why choose section start */
+  .why_choose_heading {
+      margin-top: 100px;
+      font-size: 47px;
+      line-height: 23px;
+      color: var(--primary-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+  }
+
+  .why_choose_item_title {
+      margin-top: 20px;
+      font-size: 24px;
+      color: var(--primary-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+  }
+
+  .why_choose_item_content {
+      margin-top: 20px;
+      /* width: 217px; */
+      height: 283px;
+      font-size: 17px;
+      color: #666666;
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+  }
+
   .why_choose_btn_container {
       display: flex;
       justify-content: center;
@@ -303,11 +391,12 @@
 
   .why_choose_btn {
       padding: 8px 10px;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
+      font-size: 28px;
       color: var(--white-color);
-      text-decoration: none;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
       background-color: var(--primary-color);
   }
 
@@ -332,11 +421,69 @@
       background-color: #f9f9f9;
   }
 
+  /* .why_choose_content {
+      height: 100vh;
+  } */
+
   .slick-slide {
       margin: 30px;
   }
 
   /* why choose section end */
+
+  /* test talks section start  */
+  .test_talks_heading {
+      margin-top: 50px;
+      font-size: 47px;
+      line-height: 23px;
+      color: var(--primary-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+  }
+
+  .test_talks_content {
+      /* width: 734px;
+      height: 51px; */
+      margin-top: 30px;
+      font-size: 19px;
+      line-height: 31px;
+      color: #666666;
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+  }
+
+  .test_talks_item_title {
+      font-size: 20px;
+      color: var(--primary-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
+  }
+
+  .test_talks_item_date {
+      font-size: 16px;
+      color: #666666;
+      font-weight: 300;
+      font-family: "Inter Tight";
+  }
+
+  .test_talks_item_content {
+      font-size: 16px;
+      color: #666666;
+      font-weight: 300;
+      font-family: "Inter Tight";
+  }
+
+  .test_talks_read_more_btn a {
+      font-size: 18px;
+      text-decoration: underline;
+      color: var(--primary-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
+  }
+
+  /* test talks section end  */
 
   /* contact section start  */
   #contact_bg_img {
@@ -348,14 +495,14 @@
 
   .contact_left_side {
       color: var(--white-color);
-      margin-top: 100px;
-      padding: 10px 20px;
+      margin-top: 50px;
+      padding: 80px 10px;
   }
 
   .contact_right_side {
       color: var(--white-color);
-      margin-top: 100px;
-      padding: 10px 20px;
+      margin-top: 50px;
+      padding: 80px 10px;
   }
 
   .contact_left_side_input {
@@ -369,3 +516,151 @@
   }
 
   /* contact section end */
+
+  /* service page start  */
+  /* service banner section start  */
+
+  #service_bg_img {
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      width: 100%;
+      padding: 50px;
+      position: relative;
+
+  }
+  .service_banner {
+      padding-top: 100px;
+  }
+
+  .service_banner_content h3 {
+      font-size: 21px;
+      letter-spacing: 0px;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: "Inter Tight";
+
+  }
+
+  .service_banner_content h2 {
+      font-size: 64px;
+      line-height: 85px;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: "Inter Tight";
+
+  }
+
+  .service_banner_content p {
+      width: 926px;
+      height: 222px;
+      font-size: 21px;
+      letter-spacing: 0px;
+      color: #ffffff;
+      font-weight: 300;
+      font-family: "Inter Tight";
+
+  }
+
+  .service_banner_btn {
+      padding: 10px 20px;
+      font-size: 20px;
+      color: var(--white-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+      background-color: #0e84ff;
+      border-radius: 3px;
+
+  }
+
+
+
+
+      /* .service_banner_btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+} */
+      /* service banner section end  */
+
+      /* service page end  */
+      /* footer section start */
+      .footer_logo_title span {
+          margin-left: 60px;
+          text-align: center;
+          font-size: 12px;
+          line-height: 16px;
+          color: var(--primary-color);
+          font-weight: 300;
+          font-family: "Inter Tight";
+      }
+
+      .footer_content p {
+          font-size: 13px;
+          text-align: justify;
+      }
+
+      .footer_content li {
+          font-size: 13px;
+      }
+
+      /* .footer_company_section {
+      margin-left: 10px;
+  }
+
+  .footer_services_section {
+      margin-left: -120px;
+  }
+
+  .footer_useful_link_section {
+      margin-left: -30px;
+  } */
+
+      .footer_company_section li a {
+          color: black;
+          line-height: 20px;
+      }
+
+      .footer_services_section li a {
+          color: black;
+          line-height: 20px;
+      }
+
+      .footer_useful_link_section li a {
+          /* white-space: nowrap; */
+          color: black;
+          line-height: 20px;
+      }
+
+      .footer_booking_btn {
+          padding: 10px 12px;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          color: var(--white-color);
+          text-decoration: none;
+          background-color: var(--primary-color);
+      }
+
+      .footer_booking_social_media {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+      }
+
+      .footer_booking_social_media a {
+
+          margin-top: 150px;
+          color: var(--primary-color);
+      }
+
+      .footer_item_title {
+          color: var(--primary-color);
+      }
+
+      /* footer section end */
