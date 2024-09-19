@@ -518,7 +518,7 @@
   /* contact section end */
 
   /* service page start  */
-  /* service banner section start  */
+  /* service page banner section start  */
 
   #service_bg_img {
       background-size: cover !important;
@@ -529,6 +529,7 @@
       position: relative;
 
   }
+
   .service_banner {
       padding-top: 100px;
   }
@@ -574,42 +575,82 @@
 
   }
 
+  /* service page banner section end  */
 
+  /* service page our service section start  */
+  .our_service {
+      margin-top: 50px;
+  }
 
+  .our_service_content h4 {
+      font-size: 24px;
+      color: #0e84ff;
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+  }
 
-      /* .service_banner_btn {
-    font-size: 0.9rem;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-} */
-      /* service banner section end  */
+  .our_service_content h3 {
+      font-size: 53px;
+      color: #252334;
+      font-weight: 300;
+      font-family: "Inter Tight";
+      text-align: center;
+  }
 
-      /* service page end  */
-      /* footer section start */
-      .footer_logo_title span {
-          margin-left: 60px;
-          text-align: center;
-          font-size: 12px;
-          line-height: 16px;
-          color: var(--primary-color);
-          font-weight: 300;
-          font-family: "Inter Tight";
-      }
+  .our_service_items {
 
-      .footer_content p {
-          font-size: 13px;
-          text-align: justify;
-      }
+      margin-top: 40px;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      height: 85%;
+  }
 
-      .footer_content li {
-          font-size: 13px;
-      }
+  .our_service_items_icon {
+      font-size: 40px;
+  }
 
-      /* .footer_company_section {
+  .our_service_items_content h3 {
+      font-size: 29px;
+      color: #231f20;
+      font-weight: 600;
+      font-family: "Inter Tight";
+  }
+
+  .our_service_items_content p {
+      width: 288px;
+      height: 80px;
+      font-size: 17px;
+      color: #65646b;
+      font-weight: 300;
+      font-family: "Inter Tight";
+  }
+
+  /* service page our service section end  */
+  /* service page end  */
+  /* footer section start */
+  .footer_logo_title span {
+      margin-left: 60px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 16px;
+      color: var(--primary-color);
+      font-weight: 300;
+      font-family: "Inter Tight";
+  }
+
+  .footer_content p {
+      font-size: 13px;
+      text-align: justify;
+  }
+
+  .footer_content li {
+      font-size: 13px;
+  }
+
+  /* .footer_company_section {
       margin-left: 10px;
   }
 
@@ -621,46 +662,46 @@
       margin-left: -30px;
   } */
 
-      .footer_company_section li a {
-          color: black;
-          line-height: 20px;
-      }
+  .footer_company_section li a {
+      color: black;
+      line-height: 20px;
+  }
 
-      .footer_services_section li a {
-          color: black;
-          line-height: 20px;
-      }
+  .footer_services_section li a {
+      color: black;
+      line-height: 20px;
+  }
 
-      .footer_useful_link_section li a {
-          /* white-space: nowrap; */
-          color: black;
-          line-height: 20px;
-      }
+  .footer_useful_link_section li a {
+      /* white-space: nowrap; */
+      color: black;
+      line-height: 20px;
+  }
 
-      .footer_booking_btn {
-          padding: 10px 12px;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-          color: var(--white-color);
-          text-decoration: none;
-          background-color: var(--primary-color);
-      }
+  .footer_booking_btn {
+      padding: 10px 12px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      color: var(--white-color);
+      text-decoration: none;
+      background-color: var(--primary-color);
+  }
 
-      .footer_booking_social_media {
-          display: flex;
-          justify-content: flex-end;
-          align-items: flex-end;
-      }
+  .footer_booking_social_media {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
 
-      .footer_booking_social_media a {
+  .footer_booking_social_media a {
 
-          margin-top: 150px;
-          color: var(--primary-color);
-      }
+      margin-top: 150px;
+      color: var(--primary-color);
+  }
 
-      .footer_item_title {
-          color: var(--primary-color);
-      }
+  .footer_item_title {
+      color: var(--primary-color);
+  }
 
-      /* footer section end */
+  /* footer section end */
