@@ -182,6 +182,42 @@
 
     /* service page of favourite section end  */
 
+    /* service page of why choose join work section start  */
+    .why_choose_join_work_part {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why_choose_join_work_left_side img {
+        width: 100%;
+
+    }
+
+    .why_choose_join_work_left_side {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .why_choose_join_work_right_side {
+        padding-left: 0;
+    }
+
+    .why_choose_join_work_right_side h1 {
+        font-size: 20px;
+    }
+
+    .why_choose_join_work_right_side p {
+        font-size: 14px;
+    }
+
+    .why_choose_join_work_btn {
+        width: 100%;
+    }
+
+    /* service page of why choose join work section end  */
+
+
     /* service page end  */
     /* footer page start  */
     .footer_booking_social_media {

@@ -766,6 +766,7 @@
       font-family: "Inter Tight";
       text-align: center;
   }
+
   .counter_item h5 {
       font-size: 30px;
       color: #000000;
@@ -782,27 +783,57 @@
       text-align: center;
   }
 
-  /* .counter_item {
-      text-align: center;
-      padding: 20px;
+  /* service page of why choose join work section start   */
+
+  .why_choose_join_work {
+      margin-top: 50px;
+      background-color: var(--primary-color);
   }
 
-  .counter_content {
+  .why_choose_join_work_part {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 24px;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 40px;
+  }
+
+  .why_choose_join_work_left_side img {
+      width: 450px;
+      height: auto;
+      border-radius: 5px;
+  }
+
+  .why_choose_join_work_right_side {
+      flex: 1;
+      padding-left: 20px;
+  }
+
+  .why_choose_join_work_right_side h1 {
+      font-size: 60px;
+      margin-bottom: 15px;
+      color: var(--white-color);
+  }
+
+  .why_choose_join_work_right_side p {
       margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--white-color);
   }
 
-  .counter_content i {
-      margin-right: 5px;
+  .why_choose_join_work_btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
   }
 
-  .counter_item h5 {
-      font-size: 18px;
-      margin: 0;
-  } */
+
+
+  /* service page of why choose join work section end   */
 
   /* service page of counter section end  */
 
