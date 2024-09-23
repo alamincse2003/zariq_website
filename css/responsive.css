@@ -217,8 +217,76 @@
 
     /* service page of why choose join work section end  */
 
+    /* service page of pricing table section start  */
+    table thead {
+        display: none;
+    }
 
+    /* Set table, tbody, tr, and td to block to stack them */
+    table,
+    tbody,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    /* Set padding and alignment for table cells */
+    td {
+        padding: 10px;
+        text-align: right;
+        position: relative;
+    }
+
+    /* Add labels using data attributes */
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    /* Style for pricing values */
+    .pricing_table_price td {
+        font-size: 1rem;
+    }
+
+    /* Adjust icons size */
+    .pricing_table_icon i {
+        font-size: 1rem;
+    }
+
+    /* Read more buttons full width */
+    .pricing_table_read_more_btn {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    /* service page of pricing table section end  */
     /* service page end  */
+
+    /* about page start  */
+    /* team section start  */
+    .team_member_image {
+        padding: 5px;
+    }
+
+    .team_member_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* team section end  */
+    /* about page end  */
     /* footer page start  */
     .footer_booking_social_media {
         display: flex;
