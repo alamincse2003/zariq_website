@@ -106,7 +106,7 @@
     /* test talks section end  */
 
     /* service page start  */
-    /* service page banner section start  */
+    /* service page of banner section start  */
     .service_banner_content h3 {
         font-size: 20px;
     }
@@ -123,14 +123,234 @@
         font-size: 15px;
         /* padding: 30px 0px; */
     }
-    /* service page banner section end  */
 
-    /* service page our service section start  */
+    /* service page of banner section end  */
+
+    /* service page of our service section start  */
     .our_service_content h3 {
         font-size: 40x;
     }
-    /* service page our service section end  */
+
+    /* service page of our service section end  */
+
+    /* service page of favourite section start  */
+    .favourite_left_side iframe {
+        width: 100%;
+    }
+
+    .favourite_first_content h3 {
+        font-size: 50px;
+    }
+
+    .favourite_first_content i {
+        font-size: 20px;
+    }
+
+    .favourite_first_content p {
+        font-size: 15px;
+    }
+
+
+    .favourite_software_solution {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .favourite_software_solution_left_side,
+    .favourite_software_solution_right_side {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    /* .favourite_software_solution_left_side_icon {
+         font-size: 20px;
+     } */
+
+    .favourite_software_solution_left_side_content,
+    .favourite_software_solution_right_side_content h5 {
+        font-size: 16px;
+    }
+
+    .favourite_software_solution_left_side_content,
+    .favourite_software_solution_right_side_content p {
+        font-size: 14px;
+    }
+
+    .favourite_software_solution_right_side {
+        margin-top: 10px;
+    }
+
+    /* service page of favourite section end  */
+
+    /* service page of why choose join work section start  */
+    .why_choose_join_work_part {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why_choose_join_work_left_side img {
+        width: 100%;
+
+    }
+
+    .why_choose_join_work_left_side {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .why_choose_join_work_right_side {
+        padding-left: 0;
+    }
+
+    .why_choose_join_work_right_side h1 {
+        font-size: 20px;
+    }
+
+    .why_choose_join_work_right_side p {
+        font-size: 14px;
+    }
+
+    .why_choose_join_work_btn {
+        width: 100%;
+    }
+
+    /* service page of why choose join work section end  */
+
+    /* service page of pricing table section start  */
+    table thead {
+        display: none;
+    }
+
+    /* Set table, tbody, tr, and td to block to stack them */
+    table,
+    tbody,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    /* Set padding and alignment for table cells */
+    td {
+        padding: 10px;
+        text-align: right;
+        position: relative;
+    }
+
+    /* Add labels using data attributes */
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    /* Style for pricing values */
+    .pricing_table_price td {
+        font-size: 1rem;
+    }
+
+    /* Adjust icons size */
+    .pricing_table_icon i {
+        font-size: 1rem;
+    }
+
+    /* Read more buttons full width */
+    .pricing_table_read_more_btn {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    /* service page of pricing table section end  */
     /* service page end  */
+
+    /* about page start  */
+    /* team section start  */
+    .team_member_image {
+        padding: 5px;
+    }
+
+    .team_member_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* team section end  */
+
+    /* our clients amazing section start  */
+   .tab_button_area {
+       padding: 10px;
+       /* Reduce padding for better spacing */
+       text-align: center;
+       /* Center align buttons */
+   }
+
+   .pricing_table_read_more_btn {
+       display: block;
+       width: 100%;
+       /* Full-width buttons on mobile */
+       margin-bottom: 10px;
+       /* Add spacing between buttons */
+       font-size: 14px;
+       /* Reduce font size for buttons */
+       padding: 10px;
+       /* Adjust button padding */
+   }
+
+   /* Adjusting the content area */
+   .tab_content_area {
+       padding: 10px;
+       /* Reduce padding for the content area */
+   }
+
+   .tab_image_text_wrapper {
+       flex-direction: column;
+       /* Stack image and text vertically */
+       text-align: center;
+       /* Center align text */
+   }
+
+   .tab_image img {
+       width: 100%;
+       /* Make images responsive */
+       height: auto;
+       /* Keep image aspect ratio */
+       margin-bottom: 20px;
+       /* Add space between image and text */
+   }
+
+   .tab_text h3 {
+       font-size: 18px;
+       /* Adjust heading font size */
+       margin-bottom: 15px;
+   }
+
+   .tab_text p {
+       font-size: 14px;
+       /* Adjust paragraph font size */
+   }
+
+   .our_amazing_clients_btn {
+       font-size: 14px;
+       /* Adjust button text size */
+       padding: 10px 15px;
+       /* Adjust button padding */
+       display: inline-block;
+   }
+
+
+    /* our clients amazing section end  */
+    /* about page end  */
     /* footer page start  */
     .footer_booking_social_media {
         display: flex;
