@@ -98,7 +98,7 @@
 
   .banner_bottom_design {
       position: absolute;
-      bottom: -25%;
+      bottom: -30%;
       left: 30%;
       transform: translate(-5%, -10%);
       width: 50%;
@@ -195,10 +195,10 @@
 
   .image_box {
       background: #ffffff;
-      height: 100px;
+      height: 80px;
       width: 100px;
       position: relative;
-      margin: 5px;
+      margin: 0px 5px;
   }
 
   .image_box img {
@@ -295,6 +295,7 @@
       background-color: #dedede;
       height: 2px;
 
+
   }
 
   .it_solution_items p {
@@ -329,6 +330,7 @@
       padding: 10px;
       border-radius: 4px;
       background-color: var(--primary-color);
+      border-style: none;
       color: var(--white-color);
   }
 
@@ -343,6 +345,8 @@
 
   .it_solution_items:hover p {
       color: var(--white-color);
+      background-color: none !important;
+
   }
 
   .it_solution_logo i {
@@ -409,12 +413,13 @@
       display: flex;
       gap: 50px;
   }
-/* ===================================
+
+  /* ===================================
   why choose us section start
   ================================= */
-  .why_choose_us{
-    background-color: #f4f7fa;
-    padding: 110PX;
+  .why_choose_us {
+      background-color: #f4f7fa;
+      padding: 110PX;
   }
 
   .why_choose_heading {
@@ -448,6 +453,7 @@
   }
 
   .why_choose_btn_container {
+      margin-top: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -496,18 +502,20 @@
   }
 
   .why_choose_us .card {
-    text-align: center; 
-    margin-left: 30PX;
+      text-align: center;
+      margin-left: 30PX;
   }
 
-  .why_choose_heading{
-    padding-bottom: 60PX;
+  .why_choose_heading {
+      padding-bottom: 60PX;
   }
-  
+
   .why_choose_us .card img {
-    display: inline-block;
-    max-width: 100%; /* Ensures image is responsive */
-    height: auto; /* Ensures proper image aspect ratio */
+      display: inline-block;
+      max-width: 100%;
+      /* Ensures image is responsive */
+      height: auto;
+      /* Ensures proper image aspect ratio */
   }
 
 
@@ -519,125 +527,127 @@
    testimonial section start 
  ===================================*/
 
- .testimonial_section{
-   padding: 80px 0px;
- }
-
-.testimonial_title{
-    font-size: 47px;
-    color: var(--primary-color);
-    font-weight: 300;
-}
-
-.testimonial_subtitle{
-    font-size: 19px;
-    font-size: 300;
-    color: #666666;
-}
-
-.testimonial-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
+  .testimonial_section {
+      padding: 80px 0px;
   }
-  
+
+  .testimonial_title {
+      font-size: 47px;
+      color: var(--primary-color);
+      font-weight: 300;
+  }
+
+  .testimonial_subtitle {
+      font-size: 19px;
+      font-size: 300;
+      color: #666666;
+  }
+
+  .testimonial-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
   .client_image {
-    display: flex;
-    justify-content: center; 
-    margin-bottom: 20px; 
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
   }
-  
+
   .client_image img {
-    height: 108px;
-    width: 108px; 
-    border-radius: 50%;
+      height: 108px;
+      width: 108px;
+      border-radius: 50%;
   }
 
-  .quetion_icon i{
-    font-size: 38px;
-    color: var(--primary-color);
+  .quetion_icon i {
+      font-size: 38px;
+      color: var(--primary-color);
   }
 
-  .client_info{
+  /* .client_info{
     margin-top: ;
-  }
-  .client_speach p{
-    font-size: 18px;
-    color: #666666;
-    font-weight: 300;
-    text-align: justify;
+  } */
+  .client_speach p {
+      font-size: 18px;
+      color: #666666;
+      font-weight: 300;
+      text-align: justify;
   }
 
-  .client_info .client_name{
+  .client_info .client_name {
       font-size: 15.91px;
       font-weight: 400;
       color: #000000;
   }
 
-  .client_info .client_position{
+  .client_info .client_position {
       font-size: 13.26px;
       font-weight: 200;
       color: #7b747b;
       margin-top: -14px;
   }
 
-  .doted_icon{
-    margin-top: -14px;
+  .doted_icon {
+      margin-top: -14px;
   }
 
-  .doted_icon i{
-    color: var(--primary-color);
-    font-size: 20px;
+  .doted_icon i {
+      color: var(--primary-color);
+      font-size: 20px;
   }
 
-.testimonial-slider{
-    text-align: center;
-}
+  .testimonial-slider {
+      text-align: center;
+  }
 
-.testimonial-card{
-    text-align: center;
-}
+  .testimonial-card {
+      text-align: center;
+  }
 
- .testimonial-slider.testimonial-slider {
-    width: 80%;
-    margin: 0 auto;
-}
+  .testimonial-slider.testimonial-slider {
+      width: 80%;
+      margin: 0 auto;
+  }
 
-.testimonial-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
+  .testimonial-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
 
-.testimonial-slider.slick-prev, .slick-next {
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    color: white;
-    border: none;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    z-index: 1000;
-}
+  .testimonial-slider.slick-prev,
+  .slick-next {
+      /* background-color: rgba(0, 0, 0, 0.5); */
+      color: white;
+      border: none;
+      padding: 10px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      z-index: 1000;
+  }
 
-.testimonial-slider.slick-prev {
-    left: -40px;
-}
+  .testimonial-slider.slick-prev {
+      left: -40px;
+  }
 
-.testimonial-slider.slick-next {
-    right: -40px;
-}
+  .testimonial-slider.slick-next {
+      right: -40px;
+  }
 
-.testimonial-slider.slick-prev:hover, .slick-next:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-}
+  .testimonial-slider.slick-prev:hover,
+  .slick-next:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+  }
 
- /*=================================
+  /*=================================
    testimonial section end 
  =================================*/
 
@@ -727,18 +737,31 @@
   /* service page start  */
 
   /* service page banner section start  */
+  .service_overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(28, 54, 100, 0.80) !important;
+      z-index: 1;
+
+  }
 
   #service_bg_img {
+      position: relative;
       background-size: cover !important;
       background-position: center !important;
       background-repeat: no-repeat !important;
       width: 100%;
       padding: 50px;
-      position: relative;
+      height: 100vh !important;
+      /* position: relative; */
 
   }
 
   .service_banner {
+      /* position: relative; */
       padding-top: 100px;
   }
 
@@ -1142,7 +1165,27 @@
   /* service page end  */
 
   /* about us page start  */
+  .about_overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(28, 54, 100, 0.80) !important;
+      z-index: 1;
 
+  }
+ #about_bg_img {
+     position: relative;
+     background-size: cover !important;
+     background-position: center !important;
+     background-repeat: no-repeat !important;
+     width: 100%;
+     padding: 50px;
+     height: 100vh !important;
+     /* position: relative; */
+
+ }
   /* expert testing section start  */
   .expert_testing {
       margin-top: 50px;
@@ -1387,7 +1430,7 @@
   }
 
   .team_member_btn {
-    margin-top: 30px;
+      margin-top: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1413,6 +1456,7 @@
   /* about us page end  */
 
   /* footer section start */
+
   .footer_logo_title span {
       margin-left: 60px;
       text-align: center;
@@ -1430,19 +1474,10 @@
 
   .footer_content li {
       font-size: 13px;
+      line-height: 25px;
   }
 
-  /* .footer_company_section {
-      margin-left: 10px;
-  }
-
-  .footer_services_section {
-      margin-left: -120px;
-  }
-
-  .footer_useful_link_section {
-      margin-left: -30px;
-  } */
+ 
 
   .footer_company_section li a {
       color: black;
@@ -1485,5 +1520,6 @@
   .footer_item_title {
       color: var(--primary-color);
   }
+
 
   /* footer section end */
