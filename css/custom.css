@@ -70,7 +70,6 @@
 
   .custom_navbar {
       background-color: var(--primary-color);
-      margin-bottom: 10px;
   }
 
   .nav-link {
@@ -88,31 +87,47 @@
     banner section css start 
 ================================*/
   .banner {
-      height: 100vh;
+      height: 100vh !important;
       position: relative;
-      overflow: hidden;
+      overflow: hidden !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
   }
 
-  .logo-slider {
+  .banner_bottom_design {
       position: absolute;
-      bottom: 10%;
-      left: 0;
-      width: 100%;
-      z-index: 3;
-      background-color: rgba(255, 255, 255, 0.5);
-      padding: 1rem 0;
+      bottom: -25%;
+      left: 30%;
+      transform: translate(-5%, -10%);
+      width: 50%;
+      background-color: var(--primary-color);
+      z-index: 10;
+  }
+
+  .banner_text_wrapper p {
+      text-align: center;
+      font-size: 30px;
+      color: var(--white-color);
+      font-weight: 200;
+      margin-top: 10px;
+
   }
 
   .logo-slider img {
       max-height: 60px;
-      margin: 0 auto;
+      margin: 0px;
   }
 
-  /* Background Image Carousel */
-  .carousel-item img {
+
+
+  .banner-image .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
-      height: 100vh;
-      object-fit: cover;
+      height: 100%;
+      background: rgba(28, 54, 100, 0.80) !important;
+      z-index: 1;
   }
 
   /* Banner content (text) */
@@ -121,20 +136,45 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      text-align: center;
       color: white;
       z-index: 2;
+      width: 60%;
   }
 
-  .banner h1 {
-      font-size: 4rem;
-      margin-bottom: 1rem;
+  .banner-content h2 {
+      font-size: 64px;
       text-transform: uppercase;
+      font-weight: 400;
+      text-align: center;
   }
 
   .banner p {
-      font-size: 1.5rem;
-      margin-bottom: 2rem;
+      font-size: 20.67px;
+      margin-top: 27px;
+      text-align: center;
+  }
+
+  .contactus_btn {
+      background-color: #0e84ff;
+      font-weight: 400;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 24px;
+      text-transform: capitalize;
+      margin-right: 17px;
+  }
+
+  .learnmore_btn {
+      font-size: 24px;
+      font-weight: 400;
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+      margin-right: 17px;
+  }
+
+  .banner_button {
+      text-align: center;
   }
 
   .banner .btn {
@@ -150,6 +190,28 @@
   .banner .btn:hover {
       background-color: #ff3d2e;
   }
+
+  .image_box {
+      background: #ffffff;
+      height: 100px;
+      width: 100px;
+      position: relative;
+      margin: 5px;
+  }
+
+  .image_box img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  span.btn_icon {
+      margin-left: 10px;
+      font-size: 15px;
+  }
+
+  /* logo slider end */
 
   /* Responsive design */
   @media (max-width: 768px) {
@@ -345,14 +407,14 @@
       display: flex;
       gap: 50px;
   }
+/* ===================================
+  why choose us section start
+  ================================= */
+  .why_choose_us{
+    background-color: #f4f7fa;
+    padding: 110PX;
+  }
 
-  /* .trusted_company_logo img {
-      width: 90%;
-  } */
-
-  /* our amazing service section end */
-
-  /* why choose section start */
   .why_choose_heading {
       margin-top: 100px;
       font-size: 47px;
@@ -400,8 +462,8 @@
       background-color: var(--primary-color);
   }
 
-  .slick-prev,
-  .slick-next {
+  .why_choose_us.slick-prev,
+  .why_choose_us.slick-next {
       background-color: black;
       color: var(--white-color);
       border-radius: 50%;
@@ -410,28 +472,173 @@
       z-index: 1;
   }
 
-  .slick-prev:before,
-  .slick-next:before {
+  .why_choose_us.slick-prev:before,
+  .why_choose_us.slick-next:before {
       color: var(--primary-color);
   }
 
-  .card {
+  .why_choose_us .card {
       border: 1px solid #ddd;
       padding: 20px;
       background-color: #f9f9f9;
   }
 
-  /* .why_choose_content {
-      height: 100vh;
-  } */
+  .why_choose_us .card img {
+      display: flex;
+      justify-content: center;
+  }
 
-  .slick-slide {
+
+  .why_choose_us.slick-slide {
       margin: 30px;
   }
 
-  /* why choose section end */
+  .why_choose_us .card {
+    text-align: center; 
+    margin-left: 30PX;
+  }
 
-  /* test talks section start  */
+  .why_choose_heading{
+    padding-bottom: 60PX;
+  }
+  
+  .why_choose_us .card img {
+    display: inline-block;
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto; /* Ensures proper image aspect ratio */
+  }
+
+
+  /* =================================
+  why choose section end 
+  ====================================*/
+
+  /*================================
+   testimonial section start 
+ ===================================*/
+
+ .testimonial_section{
+   padding: 80px 0px;
+ }
+
+.testimonial_title{
+    font-size: 47px;
+    color: var(--primary-color);
+    font-weight: 300;
+}
+
+.testimonial_subtitle{
+    font-size: 19px;
+    font-size: 300;
+    color: #666666;
+}
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .client_image {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .client_image img {
+    height: 108px;
+    width: 108px; 
+    border-radius: 50%;
+  }
+
+  .quetion_icon i{
+    font-size: 38px;
+    color: var(--primary-color);
+  }
+
+  .client_info{
+    margin-top: ;
+  }
+  .client_speach p{
+    font-size: 18px;
+    color: #666666;
+    font-weight: 300;
+    text-align: justify;
+  }
+
+  .client_info .client_name{
+      font-size: 15.91px;
+      font-weight: 400;
+      color: #000000;
+  }
+
+  .client_info .client_position{
+      font-size: 13.26px;
+      font-weight: 200;
+      color: #7b747b;
+      margin-top: -14px;
+  }
+
+  .doted_icon{
+    margin-top: -14px;
+  }
+
+  .doted_icon i{
+    color: var(--primary-color);
+    font-size: 20px;
+  }
+
+.testimonial-slider{
+    text-align: center;
+}
+
+.testimonial-card{
+    text-align: center;
+}
+
+ .testimonial-slider.testimonial-slider {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-slider.slick-prev, .slick-next {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.testimonial-slider.slick-prev {
+    left: -40px;
+}
+
+.testimonial-slider.slick-next {
+    right: -40px;
+}
+
+.testimonial-slider.slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+ /*=================================
+   testimonial section end 
+ =================================*/
+
   .test_talks_heading {
       margin-top: 50px;
       font-size: 47px;
@@ -443,8 +650,6 @@
   }
 
   .test_talks_content {
-      /* width: 734px;
-      height: 51px; */
       margin-top: 30px;
       font-size: 19px;
       line-height: 31px;
@@ -518,6 +723,7 @@
   /* contact section end */
 
   /* service page start  */
+
   /* service page banner section start  */
 
   #service_bg_img {
