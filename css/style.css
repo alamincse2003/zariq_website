@@ -56,9 +56,9 @@
       background-color: var(--primary-color);
   }
 
-  ul.navbar-nav {
+  /* ul.navbar-nav {
       margin-left: 250px;
-  }
+  } */
 
 
 
@@ -120,7 +120,38 @@
       margin: 0px;
   }
 
+.logo-slider {
+    position: absolute;
+    top: 94%;
+    left: 30%;
+    transform: translate(-30%, -94%);
+    width: 80%;
+    z-index: 3;
+    padding: 1rem 0;
+    margin-left: 30px;
+}
 
+.logo-slider.slick-prev,
+.logo-slider.slick-next {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.logo-slider.slick-prev {
+    left: -30px;
+}
+
+.logo-slider.slick-next {
+    right: -30px;
+}
+
+.logo-slider.slick-prev:before,
+.logo-slider.slick-next:before {
+    opacity: 0 !important;
+}
 
   .banner-image .overlay {
       position: absolute;
@@ -214,25 +245,6 @@
   }
 
   /* logo slider end */
-
-  /* Responsive design */
-  @media (max-width: 768px) {
-      .banner h1 {
-          font-size: 3rem;
-      }
-
-      .banner p {
-          font-size: 1.2rem;
-      }
-
-      .banner .btn {
-          padding: 0.7rem 1.5rem;
-      }
-
-      .logo-slider img {
-          max-height: 40px;
-      }
-  }
 
   /*==================================
      banner section css end 
@@ -510,12 +522,14 @@
       padding-bottom: 60PX;
   }
 
+  .why_choose_us .card {
+      min-height: 700px !important;
+  }
+
   .why_choose_us .card img {
       display: inline-block;
       max-width: 100%;
-      /* Ensures image is responsive */
       height: auto;
-      /* Ensures proper image aspect ratio */
   }
 
 
@@ -528,9 +542,8 @@
  ===================================*/
 
   .testimonial_section {
-      padding: 80px 0px;
+      padding: 60px 0;
   }
-
   .testimonial_title {
       font-size: 47px;
       color: var(--primary-color);
@@ -602,7 +615,9 @@
   .testimonial-slider {
       text-align: center;
   }
-
+.testimonial_slider {
+    position: relative;
+}
   .testimonial-card {
       text-align: center;
   }
@@ -642,10 +657,10 @@
       right: -40px;
   }
 
-  .testimonial-slider.slick-prev:hover,
+  /* .testimonial-slider.slick-prev:hover,
   .slick-next:hover {
       background-color: rgba(0, 0, 0, 0.7);
-  }
+  } */
 
   /*=================================
    testimonial section end 
@@ -756,12 +771,9 @@
       width: 100%;
       padding: 50px;
       height: 100vh !important;
-      /* position: relative; */
-
   }
 
   .service_banner {
-      /* position: relative; */
       padding-top: 100px;
   }
 
@@ -1384,6 +1396,7 @@
   
    */
   /* our amazing clinets section end  */
+  
   /* team section start  */
   .team_member {
       margin-top: 50px;

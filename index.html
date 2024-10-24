@@ -1,186 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zariq Ltd</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <!-- Slick Slider CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zariq Ltd</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-  <!-- Slick Slider CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/responsive.css" />
-  <style>
-    .logo-slider {
-      position: absolute;
-      top: 94%;
-      left: 30%;
-      transform: translate(-30%, -94%);
-      width: 80%;
-      z-index: 3;
-      padding: 1rem 0;
-      margin-left: 30px;
-    }
-
-    .logo-slider.slick-prev,
-    .logo-slider.slick-next {
-      background-color: transparent;
-      border: none;
-      color: #fff;
-      font-size: 24px;
-      z-index: 1;
-    }
-
-    .logo-slider.slick-prev {
-      left: -30px;
-    }
-
-    .logo-slider.slick-next {
-      right: -30px;
-    }
-
-    .logo-slider.slick-prev:before,
-    .logo-slider.slick-next:before {
-      opacity: 0 !important;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- Navbar section start -->
-  <!-- Top Navbar (Social Icons) -->
-  <div class="top-navbar custom_top_navbar py-2">
-    <div class="container d-flex justify-content-end">
-      <a href="#" class="text-light mx-2"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#" class="text-light mx-2"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#" class="text-light mx-2"><i class="fa-brands fa-twitter"></i></a>
-      <a href="#" class="text-light mx-2"><i class="fa-brands fa-whatsapp"></i></a>
-      <a href="#" class="text-light mx-2"><i class="fa-brands fa-pinterest"></i></a>
-      <a href="#" class="text-light mx-2"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#" class="text-light mx-2"><i class="fa-brands fa-youtube"></i></a>
-      <a href="#" class="text-light mx-2"></a>
-    </div>
-  </div>
-
-  <!-- Main Navbar -->
-  <nav class="navbar navbar-expand-lg custom_navbar">
-    <div class="container d-flex align-items-center">
-      <div class="brand_logo">
-        <a class="navbar-brand" href="index.html"><img src="images/logo/zariq_logo.png" class="img-fluid" alt="" /></a>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="service.html">Service 1</a></li>
-              <li><a class="dropdown-item" href="#">Service 2</a></li>
-              <li><a class="dropdown-item" href="#">Service 3</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about-us.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        <div class="nav_btn">
-          <a href="#" class="tsting_btn">Let's Talk Testing</a>
-        </div>
+  <body>
+    <!-- Navbar section start -->
+    <!-- Top Navbar (Social Icons) -->
+   <div class="top-navbar custom_top_navbar py-2">
+      <div class="container d-flex justify-content-end">
+        <a href="#" class="text-light mx-2"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="fa-brands fa-pinterest"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="#" class="text-light mx-2"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+        <a href="#" class="text-light mx-2"></a>
       </div>
     </div>
-  </nav>
-  <!-- navbar section end -->
-
-  <!-- slider section start -->
-  <section class="banner">
-    <div class="container">
-      <div class="logo-slider">
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 1" />
+    <!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg custom_navbar">
+      <div class="container d-flex align-items-center">
+        <div class="brand_logo">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo/zariq_logo.png" class="img-fluid" alt=""
+          /></a>
         </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 2" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 3" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 4" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 5" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 6" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 7" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 8" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 8" />
-        </div>
-        <div class="image_box">
-          <img src="./images/banner_logo/logo1.png" alt="Client 8" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="service.html"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="service.html">Service 1</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Service 2</a></li>
+                <li><a class="dropdown-item" href="#">Service 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="nav_btn">
+            <a href="contact.html" class="tsting_btn">Let's Talk Testing</a>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
+    <!-- navbar section end -->
 
-
-    <!-- Single Background Image with Gradient Overlay -->
-    <div class="banner-image">
-      <img src="./images/banner/main_banner.jpg" class="img-fluid w-100" alt="Banner Image" />
-      <div class="overlay"></div>
-    </div>
-
-    <!-- Banner Text Content -->
-    <div class="banner-content">
-      <h2>Delivering technology Solution for Business</h2>
-      <p>Zariq Ltd provides IT solutions such as e-commerce platforms, website development, POS software, custom
-        software, app development, and digital marketing. Their services focus on enhancing business efficiency through
-        tailored, quality-driven solutions.</p>
-      <div class="banner_button">
-        <a href="#" class="contactus_btn">contact us</a>
-        <a href="#" class="learnmore_btn">learn more <span class="btn_icon"><i
-              class="fas fa-arrow-right"></i></span></a>
+    <!-- slider section start -->
+   <section class="banner">
+      <div class="container">
+        <div class="logo-slider">
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 1" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 2" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 3" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 4" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 5" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 6" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 7" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 8" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 8" />
+          </div>
+          <div class="image_box">
+            <img src="./images/banner_logo/logo1.png" alt="Client 8" />
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- slider section end -->
 
-  <!-- banner bottom end start -->
-  <div class="banner_bottom_design">
-    <div class="banner_text_wrapper">
-      <p>Meet 100+ brands who trust us</p>
-    </div>
-  </div>
-  <!-- banner bottom end end -->
-  <!-- it solutions page start  -->
+      <div class="banner-image">
+        <img
+          src="./images/banner/main_banner.jpg"
+          class="img-fluid w-100"
+          alt="Banner Image"
+        />
+        <div class="overlay"></div>
+      </div>
 
-  <section class="mt-5">
-   <div class="container">
+      <div class="banner-content">
+        <h2>Delivering technology Solution for Business</h2>
+        <p>
+          Zariq Ltd provides IT solutions such as e-commerce platforms, website
+          development, POS software, custom software, app development, and
+          digital marketing. Their services focus on enhancing business
+          efficiency through tailored, quality-driven solutions.
+        </p>
+        <div class="banner_button">
+          <a href="contact.html" class="contactus_btn">contact us</a>
+          <a href="#" class="learnmore_btn"
+            >learn more
+            <span class="btn_icon"><i class="fas fa-arrow-right"></i></span
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- slider section end -->
+
+    <!-- banner bottom end start -->
+ <div class="banner_bottom_design">
+      <div class="banner_text_wrapper">
+        <p>Meet 100+ brands who trust us</p>
+      </div>
+    </div> 
+    <!-- banner bottom end end -->
+    <!-- it solutions page start  -->
+
+<section class="mt-5">
+   <div class="container it_solution">
      <div class="it_solution_service">
 
       <div>
@@ -198,6 +223,8 @@
         </div>
       </div>
     </div>
+   </div>
+   <div class="container">
     <div class="row">
       <div class="col-lg-6">
         <div class="it_solution_items">
@@ -249,9 +276,7 @@
             </p>
           </div>
         </div>
-        <!-- <div class="it_solution_line">
-          <hr />
-        </div> -->
+       
       </div>
       <div class="col-lg-6 mt-3">
         <div class="it_solution_items">
@@ -269,11 +294,9 @@
             </p>
           </div>
         </div>
-        <!-- <div class="it_solution_line">
-          <hr />
-        </div> -->
+     
       </div>
-      <div class="col-lg-6 mt-3">
+      <div class="col-lg-6  mt-3">
         <div class="it_solution_items">
           <div class="it_solution_logo">
             <i class="fas fa-shield"></i>
@@ -291,11 +314,8 @@
             </p>
           </div>
         </div>
-        <!-- <div class="it_solution_line">
-          <hr />
-        </div> -->
       </div>
-      <div class="col-lg-6 mt-3">
+      <div class="col-lg-6  mt-3">
         <div class="it_solution_items">
           <div class="it_solution_logo">
             <i class="fas fa-chart-line"></i>
@@ -317,215 +337,203 @@
     </div>
    </div>
   </section>
-  <!-- it solutions page end -->
-  <!-- our amazing service page start -->
-  <section class="service_bg_color">
-    <h1 class="service_heading">
-      Providing amazing service <br />
-      for all industries
-    </h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (1).png" alt="" width="65%">
+    <!-- it solutions page end -->
+    <!-- our amazing service page start -->
+<section class="service_bg_color">
+      <h1 class="service_heading">
+        Providing amazing service <br />
+        for all industries
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (1).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Business Company</p>
+            </div>
           </div>
-          <div class="service_text">
-            <p>Business Company</p>
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (2).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Transportation</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (2).png" alt="" width="65%">
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (4).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Human Capital</p>
+            </div>
           </div>
-          <div class="service_text">
-            <p>Transportation</p>
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (4).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Human Capital</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (3).png" alt="" width="65%">
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (5).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Chemical Industry</p>
+            </div>
           </div>
-          <div class="service_text">
-            <p>Medical & Healthcare</p>
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (6).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Shop & Retail</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (4).png" alt="" width="65%">
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (7).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Bank & Finance</p>
+            </div>
           </div>
-          <div class="service_text">
-            <p>Human Capital</p>
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (8).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Telecom Industry</p>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (5).png" alt="" width="65%">
-          </div>
-          <div class="service_text">
-            <p>Chemical Industry</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (6).png" alt="" width="65%">
-          </div>
-          <div class="service_text">
-            <p>Shop & Retail</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (7).png" alt="" width="65%">
-          </div>
-          <div class="service_text">
-            <p>Bank & Finance</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (8).png" alt="" width="65%">
-          </div>
-          <div class="service_text">
-            <p>Telecom Industry</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 service_item">
-          <div class="service_icon">
-            <img src="images/services/image1 (9).png" alt="" width="65%">
-
-          </div>
-          <div class="service_text">
-            <p>Power & Energy</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <h1 class="trusted_company_heading">Trusted by great companies</h1>
-        <div class="trusted_company container">
-          <div class="trusted_company_logo">
-            <img src="images/trusted_company/image1.png" alt="" />
-            <img src="images/trusted_company/image2.png" alt="" />
-            <img src="images/trusted_company/image3.png" alt="" />
-            <img src="images/trusted_company/image4.png" alt="" />
-            <img src="images/trusted_company/image5.png" alt="" />
+          <div class="col-lg-4 col-md-3 col-sm-12 service_item">
+            <div class="service_icon">
+              <img src="images/services/image1 (9).png" alt="" width="65%" />
+            </div>
+            <div class="service_text">
+              <p>Power & Energy</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- our amazing service page end -->
-
-
-  <!-- Why Choose us section start  -->
-
-  <section class="why_choose_us">
-    <div class="container">
-      <h4 class="why_choose_heading">Why Choose Zariq ?</h4>
-      <div class="card-slider">
-        <div class="card">
-          <img src="images/choose_us/choose1.png" alt="Card Image 1" class="img-fluid" />
-          <h5 class="why_choose_item_title">
-            Why is Zariq's industry expertise important for businesses?
-          </h5>
-          <p class="why_choose_item_content">
-            Zariq brings years of experience across various sectors, allowing
-            them to create customized solutions that directly address the unique
-            challenges and demands of each industry. This ensures businesses
-            receive the most relevant and effective technology to meet their
-            specific needs.
-          </p>
-          <div class="why_choose_btn_container">
-            <a href="#" class="why_choose_btn">Learn More</a>
+        <div>
+          <h1 class="trusted_company_heading">Trusted by great companies</h1>
+          <div class="trusted_company container">
+            <div class="trusted_company_logo">
+              <img src="images/trusted_company/image1.png" alt="" />
+              <img src="images/trusted_company/image2.png" alt="" />
+              <img src="images/trusted_company/image3.png" alt="" />
+              <img src="images/trusted_company/image4.png" alt="" />
+              <img src="images/trusted_company/image5.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="images/choose_us/choose2.png" alt="Card Image 1" class="img-fluid"/>
-          <h5 class="why_choose_item_title">
-            How does Zariq
-            leverage
-            cutting-edge
-            technology?
-          </h5>
-          <p class="why_choose_item_content">
-            Zariq integrates advanced
-            tools like AI, cloud
-            computing, and data
-            analytics to offer innovative
-            solutions. This technology
-            improves business efficiency,
-            streamlines operations, and
-            helps companies remain
-            competitive.
-          </p>
-          <div class="why_choose_btn_container">
-            <a href="#" class="why_choose_btn">Learn More</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/choose_us/choose3.png" alt="Card Image 1" class="img-fluid"/>
-          <h5 class="why_choose_item_title">
-            How does Zariq
-            maintain strong client
-            relationships?
-          </h5>
-          <p class="why_choose_item_content">
-            Zariq's client-centric
-            approach ensures
-            personalized services,
-            closely aligning their
-            projects with the clients'
-            visions and goals. This
-            focus on understanding
-            and delivering tailored
-            solutions builds trust and
-            long-term partnerships.
-          </p>
-          <div class="why_choose_btn_container">
-            <a href="#" class="why_choose_btn">Learn More</a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="images/choose_us/choose4.png" alt="Card Image 1" class="img-fluid"/>
-          <h5 class="why_choose_item_title">
-            What makes Zariqʼs
-            solutions scalable and
-            affordable?
-          </h5>
-          <p class="why_choose_item_content">
-            Zariqʼs solutions are
-            designed to grow with
-            businesses, offering
-            flexibility as business needs
-            evolve. Their cost-effective
-            pricing model ensures
-            quality without breaking
-            the budget, making their
-            services accessible for
-            companies of all sizes.
-          </p>
-          <div class="why_choose_btn_container">
-            <a href="#" class="why_choose_btn">Learn More</a>
-          </div>
+    </section>  
+    <!-- our amazing service page end -->
 
+    <!-- Why Choose us section start  -->
+
+    <section class="why_choose_us">
+      <div class="container">
+        <h4 class="why_choose_heading">Why Choose Zariq ?</h4>
+        <div class="card-slider why-choose-slider">
+          <div class="card">
+            <img
+              src="images/choose_us/choose1.png"
+              alt="Card Image 1"
+              class="img-fluid"
+            />
+            <h5 class="why_choose_item_title">
+              Why is Zariq's industry expertise important for businesses?
+            </h5>
+            <p class="why_choose_item_content">
+              Zariq brings years of experience across various sectors, allowing
+              them to create customized solutions that directly address the
+              unique challenges and demands of each industry. This ensures
+              businesses receive the most relevant and effective technology to
+              meet their specific needs.
+            </p>
+            <div class="why_choose_btn_container">
+              <a href="#" class="why_choose_btn">Learn More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="images/choose_us/choose2.png"
+              alt="Card Image 1"
+              class="img-fluid"
+            />
+            <h5 class="why_choose_item_title">
+              How does Zariq leverage cutting-edge technology?
+            </h5>
+            <p class="why_choose_item_content">
+              Zariq integrates advanced tools like AI, cloud computing, and data
+              analytics to offer innovative solutions. This technology improves
+              business efficiency, streamlines operations, and helps companies
+              remain competitive.
+            </p>
+            <div class="why_choose_btn_container">
+              <a href="#" class="why_choose_btn">Learn More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="images/choose_us/choose3.png"
+              alt="Card Image 1"
+              class="img-fluid"
+            />
+            <h5 class="why_choose_item_title">
+              How does Zariq maintain strong client relationships?
+            </h5>
+            <p class="why_choose_item_content">
+              Zariq's client-centric approach ensures personalized services,
+              closely aligning their projects with the clients' visions and
+              goals. This focus on understanding and delivering tailored
+              solutions builds trust and long-term partnerships.
+            </p>
+            <div class="why_choose_btn_container">
+              <a href="#" class="why_choose_btn">Learn More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="images/choose_us/choose4.png"
+              alt="Card Image 1"
+              class="img-fluid"
+            />
+            <h5 class="why_choose_item_title">
+              What makes Zariqʼs solutions scalable and affordable?
+            </h5>
+            <p class="why_choose_item_content">
+              Zariqʼs solutions are designed to grow with businesses, offering
+              flexibility as business needs evolve. Their cost-effective pricing
+              model ensures quality without breaking the budget, making their
+              services accessible for companies of all sizes.
+            </p>
+            <div class="why_choose_btn_container">
+              <a href="#" class="why_choose_btn">Learn More</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Why Choose us section end -->
+    </section>
+    <!-- Why Choose us section end -->
 
-
-  <!-- Testimonial section start -->
+    <!-- Testimonial section start -->
   <section class="testimonial_section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h4 class="testimonial_title">Testimonial</h4>
+        <div class="col-lg-12">
+        <div class="text-center">
+            <h4 class="testimonial_title">Testimonial</h4>
           <p class="testimonial_subtitle">Zariq delivered exactly what we needed. Their expertise, efficiency, and focus
             on customer satisfaction made a huge difference for our business. We highly recommend them!
           </p>
+        </div>
         </div>
         <div class="col-lg-12">
           <div class="testimonial_slider">
@@ -632,289 +640,450 @@
               </div>
             </div>
 
-            <!-- Arrow icons -->
-            <button class="slick-prev">&#9664;</button>
-            <button class="slick-next">&#9654;</button>
+          <button class="slick-prev">&#9664;</button>
+            <button class="slick-next">&#9654;</button> 
           </div>
         </div>
       </div>
     </div>
-    </div>
-  </section>
+  </section> 
+    <!-- Testimonial section end -->
 
-  <!-- Testimonial section end -->
-
-  <!-- test talks section start  -->
+    <!-- test talks section start  -->
   <section class="mt-5">
-    <div class="container">
-      <h4 class="test_talks_heading">Test Talks by Zariq</h4>
-    <p class="test_talks_content">
-      Website experiment experts share advice, discussion, and case studies
-      from running <br>
-      500 tests per month.
-    </p>
-    <div class="test-talks-slider">
-      <div class="card">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="images/test_talks/image1.png" alt="Card Image 1" class="mx-auto" width="100%" />
-          </div>
-          <div class="col-lg-6 mt-3">
-            <h5 class="test_talks_item_title">
-              The 15-Point Ecommerce Checklist: Launch Your Online Store in
-              2023
-            </h5>
-            <p class="test_talks_item_date">AIUB HOSSAIN SEPTEMBER 02, 2023</p>
-            <p class="test_talks_item_content">
-              Zariq offers a structured 15 point e-commerce checklist for
-              launching your Shopify store. With Zariqʼs experts optimize your
-              shopify store for fullest growth...
-            </p>
-            <div class="test_talks_read_more_btn">
-              <a href="#">Read More...</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="row">
-          <div class="col-lg-6">
-            <img src="images/test_talks/image1.png" alt="Card Image 1" class="mx-auto" width="100%" />
-          </div>
-          <div class="col-lg-6 mt-3">
-            <h5 class="test_talks_item_title">
-              The 15-Point Ecommerce Checklist: Launch Your Online Store in
-              2023
-            </h5>
-            <p class="test_talks_item_date">AIUB HOSSAIN SEPTEMBER 02, 2023</p>
-            <p class="test_talks_item_content">
-              Zariq offers a structured 15 point e-commerce checklist for
-              launching your Shopify store. With Zariqʼs experts optimize your
-              shopify store for fullest growth...
-            </p>
-            <div class="test_talks_read_more_btn">
-              <a href="#">Read More...</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-
-    </div>
-  </section>
-  <div class="why_choose_btn_container">
-    <a href="#" class="why_choose_btn">Read More Articles</a>
-  </div>
- 
-  <!-- test talks section end -->
-  <!-- contact section start  -->
-  <section class="mt-5" id="contact_bg_img" style="background-image: url(./images/contact_bg_img.jpg)">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="contact_left_side">
-            <h3>Letʼs Get In Touch!</h3>
-            <p>
-              Looking for an expert team to optimize your business processes
-              with cutting-edge IT solutions? Get in touch with us at Zariq,
-              and weʼll respond as soon as possible to discuss your needs and
-              how we can help.
-            </p>
-            <p>Email: info@zariq.com.bd</p>
-            <input type="text" class="contact_left_side_input" id="exampleFormControlInput1"
-              placeholder="Schedule 30 mins session!" />
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="contact_right_side">
-            <form>
-              <div class="form-group">
-                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Your Name" />
-                <br />
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Your email" />
-                <br />
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="Company Name" />
-                <br />
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Select Business Type</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-
-                <br />
-                <textarea name="" placeholder="Tell us your requirement" class="form-control"></textarea>
+      <div class="container">
+        <h4 class="test_talks_heading">Test Talks by Zariq</h4>
+        <p class="test_talks_content">
+          Website experiment experts share advice, discussion, and case studies
+          from running <br />
+          500 tests per month.
+        </p>
+        <div class="test-talks-slider">
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6">
+                <img
+                  src="images/test_talks/image1.png"
+                  alt="Card Image 1"
+                  class="mx-auto"
+                  width="100%"
+                />
               </div>
-              <br />
-
-              <button type="submit" class="contact_btn">Submit</button>
-            </form>
+              <div class="col-lg-6 mt-3">
+                <h5 class="test_talks_item_title">
+                  The 15-Point Ecommerce Checklist: Launch Your Online Store in
+                  2023
+                </h5>
+                <p class="test_talks_item_date">
+                  AIUB HOSSAIN SEPTEMBER 02, 2023
+                </p>
+                <p class="test_talks_item_content">
+                  Zariq offers a structured 15 point e-commerce checklist for
+                  launching your Shopify store. With Zariqʼs experts optimize
+                  your shopify store for fullest growth...
+                </p>
+                <div class="test_talks_read_more_btn">
+                  <a href="#">Read More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-lg-6">
+                <img
+                  src="images/test_talks/image1.png"
+                  alt="Card Image 1"
+                  class="mx-auto"
+                  width="100%"
+                />
+              </div>
+              <div class="col-lg-6 mt-3">
+                <h5 class="test_talks_item_title">
+                  The 15-Point Ecommerce Checklist: Launch Your Online Store in
+                  2023
+                </h5>
+                <p class="test_talks_item_date">
+                  AIUB HOSSAIN SEPTEMBER 02, 2023
+                </p>
+                <p class="test_talks_item_content">
+                  Zariq offers a structured 15 point e-commerce checklist for
+                  launching your Shopify store. With Zariqʼs experts optimize
+                  your shopify store for fullest growth...
+                </p>
+                <div class="test_talks_read_more_btn">
+                  <a href="#">Read More...</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+    <div class="why_choose_btn_container">
+      <a href="#" class="why_choose_btn">Read More Articles</a>
     </div>
-  </section>
-  <!-- contact section end -->
-  <!-- footer section start  -->
+
+    <!-- test talks section end -->
+    <!-- contact section start  -->
+ <section
+      class="mt-5"
+      id="contact_bg_img"
+      style="background-image: url(./images/contact_bg_img.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact_left_side">
+              <h3>Letʼs Get In Touch!</h3>
+              <p>
+                Looking for an expert team to optimize your business processes
+                with cutting-edge IT solutions? Get in touch with us at Zariq,
+                and weʼll respond as soon as possible to discuss your needs and
+                how we can help.
+              </p>
+              <p>Email: info@zariq.com.bd</p>
+              <input
+                type="text"
+                class="contact_left_side_input"
+                id="exampleFormControlInput1"
+                placeholder="Schedule 30 mins session!"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact_right_side">
+              <form>
+                <div class="form-group">
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Your Name"
+                  />
+                  <br />
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Your email"
+                  />
+                  <br />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Company Name"
+                  />
+                  <br />
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Select Business Type</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+
+                  <br />
+                  <textarea
+                    name=""
+                    placeholder="Tell us your requirement"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <br />
+
+                <button type="submit" class="contact_btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+    <!-- footer section start  -->
   <section class="mt-5 footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 footer_logo_section">
-          <div class="brand_logo">
-            <div>
-              <a class="footer_logo" href="#">
-                <img src="images/logo/zariq_logo.jpeg" class="img-fluid" alt="" />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 footer_logo_section">
+            <div class="brand_logo">
+              <div>
+                <a class="footer_logo" href="#">
+                  <img
+                    src="images/logo/zariq_logo.jpeg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="footer_content">
+                <p>Level # 5, House # 536 Road # 7 Avenue # 6 Mirpur DOHS</p>
+                <p>Call: 01714024689</p>
+              </div>
+              <div class="footer_content">
+                <p>
+                  At Zariq, we are a growing, distributed team of experienced
+                  developers with a passion for delivering innovative IT
+                  solutions. From custom software development to website
+                  optimization and app development, we are committed to
+                  enhancing business processes and driving growth through
+                  technology.
+                </p>
+              </div>
+              <div>
+                <a href="#" class="footer_booking_btn">Book a Meeting</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 footer_company_section">
+            <h5 class="footer_item_title">COMPANY</h5>
+            <br />
+            <ul class="footer_content">
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
 
-              </a>
-            </div>
-            <div class="footer_content">
-              <p>
-                Level # 5, House # 536 Road # 7 Avenue # 6 Mirpur DOHS
-              </p>
-              <p>Call: 01714024689</p>
-            </div>
-            <div class="footer_content">
-              <p>
-                At Zariq, we are a growing, distributed team of experienced
-                developers with a passion for delivering innovative IT
-                solutions. From custom software development to website
-                optimization and app development, we are committed to enhancing
-                business processes and driving growth through technology.
-              </p>
-            </div>
-            <div>
-              <a href="#" class="footer_booking_btn">Book a Meeting</a>
+          <div
+            class="col-lg-2 col-md-12 footer_services_section"
+            id="footer_service_section"
+          >
+            <h5 class="footer_item_title">SERVICES</h5>
+            <br />
+            <ul class="footer_content">
+              <li><a href="#">E-Commerce Platforms</a></li>
+              <li><a href="#">Custom Website Solutions</a></li>
+              <li><a href="#">POS System Integration</a></li>
+              <li><a href="#">Bespoke Software Development</a></li>
+              <li><a href="#">Digital Marketing Strategies</a></li>
+              <li><a href="#">Mobile App Development</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-5 col-md-12 footer_useful_link_section">
+            <h5 class="footer_item_title">USEFUL LINKS</h5>
+            <br />
+            <ul class="footer_content">
+              <li>
+                <a href="#"
+                  >Software Development – Tailored software for business
+                  efficiency.</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >E-commerce – Build and manage online stores with ease.</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >Website Design & Development – SEO-optimized custom
+                  websites.</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >POS Solutions – Simplified retail and sales management
+                  systems.</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >App Development – Mobile solutions for better
+                  accessibility.</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  >Digital Marketing & SEO – Boost online presence with targeted
+                  strategies.</a
+                >
+              </li>
+            </ul>
+            <div class="footer_booking_social_media">
+              <a href="#" class="mx-2"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="mx-2"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="mx-2"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="mx-2"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#" class="mx-2"
+                ><i class="fa-brands fa-pinterest"></i
+              ></a>
+              <a href="#" class="mx-2"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" class="mx-2"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="mx-2"></a>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 footer_company_section">
-          <h5 class="footer_item_title">COMPANY</h5>
-          <br />
-          <ul class="footer_content">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 footer_services_section" id="footer_service_section">
-          <h5 class="footer_item_title">SERVICES</h5>
-          <br />
-          <ul class="footer_content">
-            <li><a href="#">E-Commerce Platforms</a></li>
-            <li><a href="#">Custom Website Solutions</a></li>
-            <li><a href="#">POS System Integration</a></li>
-            <li><a href="#">Bespoke Software Development</a></li>
-            <li><a href="#">Digital Marketing Strategies</a></li>
-            <li><a href="#">Mobile App Development</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-5 footer_useful_link_section">
-          <h5 class="footer_item_title">USEFUL LINKS</h5>
-          <br />
-          <ul class="footer_content">
-            <li>
-              <a href="#">Software Development – Tailored software for business
-                efficiency.</a>
-            </li>
-            <li>
-              <a href="#">E-commerce – Build and manage online stores with ease.</a>
-            </li>
-            <li>
-              <a href="#">Website Design & Development – SEO-optimized custom
-                websites.</a>
-            </li>
-            <li>
-              <a href="#">POS Solutions – Simplified retail and sales management
-                systems.</a>
-            </li>
-            <li>
-              <a href="#">App Development – Mobile solutions for better
-                accessibility.</a>
-            </li>
-            <li>
-              <a href="#">Digital Marketing & SEO – Boost online presence with targeted
-                strategies.</a>
-            </li>
-          </ul>
-          <div class="footer_booking_social_media">
-            <a href="#" class="mx-2"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="mx-2"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" class="mx-2"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="mx-2"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#" class="mx-2"><i class="fa-brands fa-pinterest"></i></a>
-            <a href="#" class="mx-2"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" class="mx-2"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#" class="mx-2"></a>
-          </div>
-        </div>
+        <hr />
+        <p class="footer_copyright">
+          © 2024 Zariq For All. All Rights Reserved.
+        </p>
       </div>
-      <hr />
-      <p class="footer_copyright">
-        © 2024 Zariq For All. All Rights Reserved.
-      </p>
-    </div>
-  </section>
-  <!-- footer section end  -->
+    </section> 
+    <!-- footer section end  -->
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
+    ></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-  </script>
-  <!-- Slick Slider JS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slick Slider JS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/script.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      $('.logo-slider').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        //  arrows: false,   
-        prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>', // Custom previous arrow
-        nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>', // Custom next arrow         
-        dots: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
+    <script>
+      $(document).ready(function () {
+        $(".logo-slider").slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          //  arrows: false,
+          prevArrow:
+            '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>', // Custom previous arrow
+          nextArrow:
+            '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>', // Custom next arrow
+          dots: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
       });
-    });
 
-    $(document).ready(function () {
-      $('.testimonial-slider').slick({
-        slidesToShow: 2, // Show two testimonial cards
-        slidesToScroll: 1, // Scroll one slide at a time
-        autoplay: true, // Enable auto-sliding
-        autoplaySpeed: 3000, // Slide every 3 seconds
-        prevArrow: $('.slick-prev'), // Use custom arrows
-        nextArrow: $('.slick-next'),
-        dots: false, // No dots
-        infinite: true // Infinite scrolling
+      $(document).ready(function () {
+        $(".testimonial-slider").slick({
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          prevArrow: $(".slick-prev"),
+          nextArrow: $(".slick-next"),
+          dots: false,
+          infinite: true,
+          responsive: [
+            {
+              breakpoint: 768, // For devices with a max width of 768px (tablets and below)
+              settings: {
+                slidesToShow: 1, // Show 1 slide at a time on smaller screens
+              },
+            },
+            {
+              breakpoint: 480, // For devices with a max width of 480px (smaller smartphones)
+              settings: {
+                slidesToShow: 1, // Keep showing 1 slide on even smaller screens
+                dots: true, // Enable dots navigation for better mobile experience
+              },
+            },
+            {
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 2,
+                dots: true,
+              },
+            },
+          ],
+        });
       });
-    });
-  </script>
-</body>
 
+      $(document).ready(function () {
+        $(".why-choose-slider").slick({
+          slidesToShow: 3, // Default number of slides for large screens
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000, // Slide will change every 3 seconds
+          arrows: false, // Enable arrows navigation
+          prevArrow:
+            '<button type="button" class="slick-prev">Previous</button>',
+          nextArrow: '<button type="button" class="slick-next">Next</button>',
+          dots: false, // Enable dots navigation if required
+          responsive: [
+            {
+              breakpoint: 1200, // For devices with max width of 1200px (laptops and tablets)
+              settings: {
+                slidesToShow: 2, // Show 2 slides at a time
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true, // Enable dots for easier navigation
+              },
+            },
+            {
+              breakpoint: 992, // For tablets and smaller laptops
+              settings: {
+                slidesToShow: 1, // Show 2 slides on medium devices
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+                arrows: true, // Keep arrows for larger mobile devices
+              },
+            },
+            {
+              breakpoint: 768, // For smaller tablets (portrait)
+              settings: {
+                slidesToShow: 1, // Show 1 slide at a time for small tablets
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false, // Hide arrows on smaller screens
+              },
+            },
+            {
+              breakpoint: 480, // For smartphones
+              settings: {
+                slidesToShow: 1, // Show 1 slide at a time
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false, // Use dots only on small screens
+              },
+            },
+          ],
+        });
+      });
+
+      // $(document).ready(function () {
+      //   $(".testimonial-slider").slick({
+      //     slidesToShow: 2,
+      //     slidesToScroll: 1,
+      //     autoplay: true,
+      //     autoplaySpeed: 3000,
+      //     prevArrow: $(".slick-prev"),
+      //     nextArrow: $(".slick-next"),
+      //     dots: false,
+      //     infinite: true,
+      //   });
+      // });
+    </script>
+  </body>
 </html>
