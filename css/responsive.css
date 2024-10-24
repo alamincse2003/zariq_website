@@ -258,9 +258,16 @@
 
     /* about page of expert testing section end  */
 
-    /* about page of tab section start  */
+   /* about page team section start  */
+   .team_member_content h3 {
+       text-align: center;
+   }
 
-    /* about page of tab section end  */
+   .team_member_content p {
+       text-align: center;
+   }
+
+   /* about page team section end  */
 
     /* about page end  */
 
@@ -407,6 +414,16 @@
     /* team section end  */
 
     /* about page of  our clients amazing section start  */
+    .tab_section {
+        margin-top: 40px;
+        padding: 3px;
+    }
+.tab_section_service{
+    margin-top: 10px;
+}
+    #some_solution {
+        margin-left: 26px;
+    }
     button.myTabButton {
         margin-right: 40px;
         margin-left: 0px;
@@ -416,7 +433,9 @@
         width: 100%;
         margin-left: 0px
     }
-
+.tab_text h3 {
+    font-size: 22px;
+}
     .tab_image {
         width: 100%;
     }
@@ -438,7 +457,6 @@
 
     ul.myTab {
         margin-top: 0px;
-        top: 0px;
     }
 
     /*about page of  our clients amazing section end  */
@@ -708,6 +726,14 @@
     /* about page of expert testing section end  */
 
     /* about page of  our clients amazing section start  */
+     .tab_section {
+         margin-top: 40px;
+         padding: 3px;
+     }
+     .tab_section_service {
+         margin-top: 10px;
+     }
+
     button.myTabButton {
         margin-right: 40px;
         margin-left: 0px;
@@ -739,10 +765,22 @@
 
     ul.myTab {
         margin-top: 0px;
-        top: 0px;
     }
-
+ #some_solution {
+     margin-left: 26px;
+ }
     /*about page of  our clients amazing section end  */
+
+  /* about page team section start  */
+  .team_member_content h3 {
+      text-align: center;
+  }
+
+  .team_member_content p {
+      text-align: center;
+  }
+
+  /* about page team section end  */
 
     /* about page end  */
 
@@ -1146,6 +1184,21 @@
     /* about page of expert testing section end  */
 
     /* about page of  our clients amazing section start  */
+
+     .tab_section {
+         margin-top: 40px;
+         padding: 3px;
+     }
+
+     .tab_section_service {
+         margin-top: 10px;
+     }
+
+     #some_solution {
+         margin-left: 26px;
+     }
+
+
     button.myTabButton {
         margin-right: 40px;
         margin-left: 0px;
@@ -1177,10 +1230,20 @@
 
     ul.myTab {
         margin-top: 0px;
-        top: 0px;
     }
 
     /*about page of  our clients amazing section end  */
+
+      /* about page team section start  */
+      .team_member_content h3 {
+          text-align: center;
+      }
+
+      .team_member_content p {
+          text-align: center;
+      }
+
+      /* about page team section end  */
     /* about page end  */
 
     /* service page start  */
@@ -1474,6 +1537,18 @@
     /* about page of tab section start   */
 
     /* about page of  our clients amazing section start  */
+      .tab_section {
+          margin-top: 40px;
+          padding: 3px;
+      }
+
+      .tab_section_service {
+          margin-top: 10px;
+      }
+
+      #some_solution {
+          margin-left: 26px;
+      }
     button.myTabButton {
         margin-right: 40px;
         margin-left: 165px;
@@ -1505,7 +1580,6 @@
 
     ul.myTab {
         margin-top: 0px;
-        top: 0px;
     }
 
     /*about page of  our clients amazing section end  */
@@ -1513,6 +1587,16 @@
     /* about page of tab section end   */
 
     /* about page of expert testing section end  */
+
+    /* about page team section start  */
+    .team_member_content h3 {
+        text-align: center;
+    }
+    .team_member_content p {
+        text-align: center;
+    }
+    /* about page team section end  */
+
     /* about page end  */
 
     /* service page start  */
