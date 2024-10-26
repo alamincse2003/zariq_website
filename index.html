@@ -93,6 +93,9 @@
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Home</a>
             </li>
+              <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -106,18 +109,23 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="service.html">Service 1</a>
+                  <a class="dropdown-item" href="e-commerce.html">E-commerce Website</a>
                 </li>
-                <li><a class="dropdown-item" href="#">Service 2</a></li>
-                <li><a class="dropdown-item" href="#">Service 3</a></li>
+                <li><a class="dropdown-item" href="website.html">Website</a></li>
+                <li><a class="dropdown-item" href="pos-software.html">POS Software</a></li>
+                <li><a class="dropdown-item" href="isp-software.html">ISP Software</a></li>
+                <li><a class="dropdown-item" href="project-management-software.html">Project Management Software</a></li>
+                <li><a class="dropdown-item" href="dealer-management-software.html">Delar Management Software</a></li>
+                <li><a class="dropdown-item" href="accounting-software.html">Accounting Software</a></li>
+                <li><a class="dropdown-item" href="payroll-software.html">HR Payroll Software</a></li>
+                <li><a class="dropdown-item" href="ems-software.html">EMS Software</a></li>
+                <li><a class="dropdown-item" href="digital-marketing.html">Digital Marketing</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
+          
+            <!-- <li class="nav-item">
               <a class="nav-link active" href="#">Blog</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
@@ -813,7 +821,7 @@
           <div class="col-lg-3 col-md-12 footer_logo_section">
             <div class="brand_logo">
               <div>
-                <a class="footer_logo" href="#">
+                <a class="footer_logo" href="index.html">
                   <img
                     src="images/logo/zariq_logo.jpeg"
                     class="img-fluid"
@@ -853,22 +861,26 @@
           </div>
 
           <div
-            class="col-lg-2 col-md-12 footer_services_section"
+            class="col-lg-3 col-md-12 footer_services_section"
             id="footer_service_section"
           >
             <h5 class="footer_item_title">SERVICES</h5>
             <br />
             <ul class="footer_content">
-              <li><a href="#">E-Commerce Platforms</a></li>
-              <li><a href="#">Custom Website Solutions</a></li>
-              <li><a href="#">POS System Integration</a></li>
-              <li><a href="#">Bespoke Software Development</a></li>
-              <li><a href="#">Digital Marketing Strategies</a></li>
-              <li><a href="#">Mobile App Development</a></li>
+              <li><a href="e-commerce.html">E-commerce Website</a></li>
+              <li><a href="website.html">Website</a></li>
+              <li><a href="pos-software.html">POS Software</a></li>
+              <li><a href="isp-software.html">ISP Software</a></li>
+              <li><a href="project-management-software.html">Project Management Software</a></li>
+              <li><a href="dealer-management-software.html">Delar Management Software</a></li>
+              <li><a href="accounting-software.html">Accounting Software</a></li>
+              <li><a href="payroll-software.html">HR Payroll Software</a></li>
+              <li><a href="ems-software.html">EMS Software</a></li>
+              <li><a href="digital-marketing.html">Digital Marketing</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-5 col-md-12 footer_useful_link_section">
+          <div class="col-lg-4 col-md-12 footer_useful_link_section">
             <h5 class="footer_item_title">USEFUL LINKS</h5>
             <br />
             <ul class="footer_content">
@@ -951,139 +963,5 @@
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script src="js/script.js"></script>
-
-    <script>
-      $(document).ready(function () {
-        $(".logo-slider").slick({
-          slidesToShow: 6,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          //  arrows: false,
-          prevArrow:
-            '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>', // Custom previous arrow
-          nextArrow:
-            '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>', // Custom next arrow
-          dots: false,
-          responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-              },
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              },
-            },
-          ],
-        });
-      });
-
-      $(document).ready(function () {
-        $(".testimonial-slider").slick({
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 3000,
-          prevArrow: $(".slick-prev"),
-          nextArrow: $(".slick-next"),
-          dots: false,
-          infinite: true,
-          responsive: [
-            {
-              breakpoint: 768, // For devices with a max width of 768px (tablets and below)
-              settings: {
-                slidesToShow: 1, // Show 1 slide at a time on smaller screens
-              },
-            },
-            {
-              breakpoint: 480, // For devices with a max width of 480px (smaller smartphones)
-              settings: {
-                slidesToShow: 1, // Keep showing 1 slide on even smaller screens
-                dots: true, // Enable dots navigation for better mobile experience
-              },
-            },
-            {
-              breakpoint: 320,
-              settings: {
-                slidesToShow: 2,
-                dots: true,
-              },
-            },
-          ],
-        });
-      });
-
-      $(document).ready(function () {
-        $(".why-choose-slider").slick({
-          slidesToShow: 3, // Default number of slides for large screens
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 3000, // Slide will change every 3 seconds
-          arrows: false, // Enable arrows navigation
-          prevArrow:
-            '<button type="button" class="slick-prev">Previous</button>',
-          nextArrow: '<button type="button" class="slick-next">Next</button>',
-          dots: false, // Enable dots navigation if required
-          responsive: [
-            {
-              breakpoint: 1200, // For devices with max width of 1200px (laptops and tablets)
-              settings: {
-                slidesToShow: 2, // Show 2 slides at a time
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true, // Enable dots for easier navigation
-              },
-            },
-            {
-              breakpoint: 992, // For tablets and smaller laptops
-              settings: {
-                slidesToShow: 1, // Show 2 slides on medium devices
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true,
-                arrows: true, // Keep arrows for larger mobile devices
-              },
-            },
-            {
-              breakpoint: 768, // For smaller tablets (portrait)
-              settings: {
-                slidesToShow: 1, // Show 1 slide at a time for small tablets
-                slidesToScroll: 1,
-                dots: true,
-                arrows: false, // Hide arrows on smaller screens
-              },
-            },
-            {
-              breakpoint: 480, // For smartphones
-              settings: {
-                slidesToShow: 1, // Show 1 slide at a time
-                slidesToScroll: 1,
-                dots: true,
-                arrows: false, // Use dots only on small screens
-              },
-            },
-          ],
-        });
-      });
-
-      // $(document).ready(function () {
-      //   $(".testimonial-slider").slick({
-      //     slidesToShow: 2,
-      //     slidesToScroll: 1,
-      //     autoplay: true,
-      //     autoplaySpeed: 3000,
-      //     prevArrow: $(".slick-prev"),
-      //     nextArrow: $(".slick-next"),
-      //     dots: false,
-      //     infinite: true,
-      //   });
-      // });
-    </script>
   </body>
 </html>

@@ -393,10 +393,30 @@
 
     /* service page of why choose join work section end  */
 
-    /* service page of pricing table section start  */
+     /* service page of e-commerce service section start */
+        .company-information .company-information-content {
+            flex-direction: column;
+            align-items: flex-start;
+        }
 
+        .company-information .company-phone-number p,
+        .company-information .company-office-time p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
 
-    /* service page of pricing table section end  */
+        .company-information-btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .book-now-btn {
+            display: block;
+            text-align: center;
+            padding: 10px;
+        }
+
+    /* service page of e-commerce service section end */
 
     /* service page end  */
 
@@ -462,6 +482,9 @@
     /*about page of  our clients amazing section end  */
     /* about page end  */
     /* footer page start  */
+    .footer_item_title{
+        margin-top: 25px;
+    }
     .footer_booking_social_media {
         display: flex;
         justify-content: center;
@@ -905,14 +928,39 @@
 
     /* service page of why choose join work section end  */
 
+    /* service page of why choose join work section end  */
+
+    /* service page of e-commerce service section start */
+    .company-information .company-information-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .company-information .company-phone-number p,
+    .company-information .company-office-time p {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    .company-information-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .book-now-btn {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* service page of e-commerce service section end */
 
     /* service page end */
 
     /* footer page start  */
-    /* .footer_logo_section {
-        text-align: center;
-    } */
-
+  .footer_item_title{
+    margin-top: 20px;
+  }
     .footer_company_section {
         margin-top: 30px;
         /* text-align: center; */
@@ -1368,13 +1416,37 @@
 
     /* service page of why choose join work section end  */
 
+    /* service page of e-commerce service section start */
+    .company-information .company-information-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .company-information .company-phone-number p,
+    .company-information .company-office-time p {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .company-information-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .book-now-btn {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* service page of e-commerce service section end */
 
     /* service page end */
 
     /* footer page start  */
-    /* .footer_logo_section {
-        text-align: center;
-    } */
+     .footer_item_title {
+         margin-top: 18px;
+     }
 
     .footer_company_section {
         margin-top: 30px;
