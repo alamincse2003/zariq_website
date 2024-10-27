@@ -1,6 +1,32 @@
 // navbar dropdown hover 
 $(document).ready(function () {
-    // Show dropdown on hover
+    function updateDropdown() {
+        if ($(window).width() < 1024) { 
+            $('.nav-item.dropdown').off('mouseenter mouseleave');
+            $('.nav-item.dropdown > a').off('click').on('click', function (e) {
+                e.preventDefault();
+                window.location.href = $(this).attr('href'); 
+            });
+        } else { 
+
+            $('.nav-item.dropdown').hover(
+                function () {
+                    $(this).find('.dropdown-menu').stop(true, true).delay(200).slideDown(200);
+                },
+                function () {
+                    $(this).find('.dropdown-menu').stop(true, true).delay(200).slideUp(200);
+                }
+            );
+            $('.nav-item.dropdown > a').off('click'); 
+        }
+    }
+
+    updateDropdown();
+    $(window).resize(updateDropdown);
+});
+
+
+$(document).ready(function () {
     $('.nav-item.dropdown').hover(
         function () {
             $(this).find('.dropdown-menu').stop(true, true).delay(200).slideDown(200);
@@ -10,7 +36,6 @@ $(document).ready(function () {
         }
     );
 
-    // Redirect to services page on click
     $('.nav-item.dropdown > a').click(function (e) {
         window.location.href = $(this).attr('href');
     });

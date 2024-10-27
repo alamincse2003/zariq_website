@@ -386,11 +386,12 @@
   }
 
   .service_item {
-      margin-left: 20px;
-      margin-top: 50px;
       display: flex;
       gap: 20px;
       height: 55px;
+       margin-left: 20px;
+       margin-top: 50px;
+       padding-left: 20px;
       background-color: var(--white-color);
       border-radius: 5px;
       width: 350px;
@@ -399,15 +400,29 @@
   .service_icon {
       margin-top: 17px;
   }
+  .service_icon i{
+    font-size: 21px;
+  }
 
   .service_text {
-      font-size: 24px;
+      margin-top: 10px;
+  }
+  .service_text p{
+      font-size: 21px;
       color: #1b1d21;
       font-weight: 300;
       font-family: "Inter Tight";
-      margin-top: 10px;
   }
 
+   .service_see_more_btn {
+       padding: 10px 12px;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: center;
+       color: var(--white-color);
+       text-decoration: none;
+       background-color: var(--primary-color);
+   }
   .trusted_company_heading {
       text-align: center;
       margin-top: 40px;
@@ -422,10 +437,10 @@
       margin-top: 20px;
   }
 
-  .trusted_company_logo {
-      display: flex;
-      gap: 50px;
-  }
+.trusted-logo{
+    margin-top: 30px;
+    margin-left: 20px;
+}
 
   /* ===================================
   why choose us section start
@@ -857,7 +872,7 @@
   }
 
   .our_service_items_content h3 {
-      font-size: 29px;
+      font-size: 23px;
       color: #231f20;
       font-weight: 600;
       font-family: "Inter Tight";
